@@ -38,9 +38,31 @@
     <li>Administrator: Administrator completes the email, specifying the reasons for the Students removal</li>
     <li>System: System sends the completed email to the Student</li>
 </ol>
-<ol>
-    <li></li>
-</ol>
+<h3>Alternative Flow</h3>
+<ul>
+    <li>2a: Administrator doesn't have administration rights</li>
+    <li>2b: System displays meessage saying Administrator does't have administration rights</li>
+    <li>3a: An error occurs when trying to delete the answers </li>
+    <li>3b: System displays an error message saying the answers could not be removed. System does not continue.</li>
+    <li>4a: An error occurs when trying to delete answers for question posted by the Student</li>
+    <li>4b: System displays an error message and the system ends the process</li>
+    <li>4c: The system rollsback previous changes</li>
+    <li>5a: An error occurs when sending the email to Other Students</li>
+    <li>5b: System displays error message and ends the process </li>
+    <li>5c: The system rollsback previous changes</li>
+    <li>6a: An error occurs when trying to remove questions asked by the Student</li>
+    <li>6b: System displays an error message and the process is ended</li>
+    <li>6c: The system rollsback previous changes</li>
+    <li>7a: An error occurs when trying to remove the Students account</li>
+    <li>7b: System displays an error message and the process is ended</li>
+    <li>7c: The system rollsback previous changes</li>
+    <li>8a: An error occurs when the template email is generated</li>
+    <li>8b: System displays an errror message and the process is ended</li>
+    <li>8c: The system rollsback previous changes</li>
+    <li>10a:An error occurs when the system tries to send the eamil to the Students </li>
+    <li>10b:The system displays an error message and the process is ended</li>
+    <li>10c: The system rollsback previous changes</li>
+</ul>
 
 </ul>
 </body>
