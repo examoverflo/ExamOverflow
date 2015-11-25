@@ -6,17 +6,41 @@
 </head>
 <body>
 <h1>Remove User</h1>
-<h2>Primary Actor: Administrator</h2>
-<h2>Secondary Actor: Student</h2>
+<h3>Primary Actor: Administrator</h3>
+<h3>Secondary Actor: Student</h3>
+<h3>Scope: An administrator is a student who ranks among the top 10 users with regard to likes.</h3>
+<h3>Goal in Context: An administrator wishes to remove a disruptive student from the system</h3>
 
-<h2>Goal in Context: An administrator wishes to remove a disruptive student from the system</h2>
-
-<h2>Stakeholders and Interests</h2>
+<h3>Stakeholders and Interests</h3>
 <ul>
     <li>Administrator: Wants to remove a student and all contrinution from the system, in a simple
         and easy to use manner.</li>
     <li>Student: Wants to receive a message detailing why they have been removed from the system</li>
+    <li>Other Students: Wants to receive email if their answer has been removed, because another users question has been removed.</li>
 </ul>
+<h3>Precondition: Administrator has administration rights.</h3>
+<h3>Minimal Guarantess: All answers posted by the Student have been removed from the system.</h3>
+<h3>Success Guarantees: All answers and questions posted by the Student have been deleted as well as the
+    users account. The Student has received a email detailing the reasons for their removal.Other Students have received
+    emails if their answers have been deleted in the process</h3>
+
+<h3>Trigger: Administrator decides a Student needs to be removed from the system</h3>
+<h3>Main Success Scenario</h3>
+<ol>
+    <li>Administrator: Administrator click button to remove a student</li>
+    <li>System: System verifies that the Administrator has administration rights</li>
+    <li>System: System removes all answers given by the Student</li>
+    <li>System: System removes all answers to question posted by the Student</li>
+    <li>System: System sends email to all  Other Students who have answered questions posted by the Student</li>
+    <li>System: System removes all questions asked by the Student</li>
+    <li>System: System removes the Students account from the system</li>
+    <li>System: System creates a template email for the Administrator</li>
+    <li>Administrator: Administrator completes the email, specifying the reasons for the Students removal</li>
+    <li>System: System sends the completed email to the Student</li>
+</ol>
+<ol>
+    <li></li>
+</ol>
 
 </ul>
 </body>
