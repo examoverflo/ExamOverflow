@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Exam Question</title>
+</head>
+<body>
+
+
+Description : Posting an exam question to the system, where it is saved to the database and visible for all users.
+
+Primary Actor : User
+
+Precondition : The text field is empty and there has been no change to the page.
+Postcondition : The question is stored on the system, the system is updated to display the new question, the system returns to the post exam question page.
+
+Main Success Scenario :
+1) User selects post exam question form the menu.
+2) The post exam question page is displayed.
+3) The user selects the Year of the exam and the correct module.
+4) The user inputs the exam question
+5) The user clicks "Submit"
+6) The system saves the exam question in the database under the year and module provided.
+7) System registers a confirm message to the user that the exam question has been successfully uploaded.
+
+Extensions :
+5a) The exam question has already been asked.
+5a1) The system displays an error message saying the exam question has already been asked and how to rectify the situation.
+5a2) User either leaves this use case or tries again after rectifying the cause.
+
+5b) The text field is invalid
+5b1) The system displays an error message saying the text field cannot be empty when adding an exam question.
+5b2) User either leaves this use case or tries again after rectifying the cause.
+
+3a) The user does not select an exam year
+3a1) The system displays an error message saying the exam yearmust be chosen.
+3a2)  User either leaves this use case or tries again after rectifying the cause.
+
+3b) The user does not select a module
+3b1) The system displays an error message saying the module must be chosen.
+3b2)  User either leaves this use case or tries again after rectifying the cause.
+
+Technology and Data Variations List : None
+Priority: Various
+Releases: None
+Frequency of Use : Three times a week
+Channel to Primary Actor: Internet Browser
+Channel to Secondary Actor: None
+
+Open Issues:
+Is question directly added to database?
+Can it become possible to cancel the adding of the question.
+
+
+</body>
+</html>
