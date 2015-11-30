@@ -6,50 +6,46 @@
 </head>
 <body>
 
+<h2>Use Case Title: Post an Exam Question</h2>
 
-Description : Posting an exam question to the system, where it is saved to the database and visible for all users.
+<h2>Use Case ID: 3</h2>
 
-Primary Actor : User
+<h2>Primary Actor : Student</h2>
 
-Precondition : The text field is empty and there has been no change to the page.
-Postcondition : The question is stored on the system, the system is updated to display the new question, the system returns to the post exam question page.
+<h2>Preconditions :The student is on the Post Exam Question Page</h2>
 
-Main Success Scenario :
-1) User selects post exam question form the menu.
-2) The post exam question page is displayed.
-3) The user selects the Year of the exam and the correct module.
-4) The user inputs the exam question
-5) The user clicks "Submit"
-6) The system saves the exam question in the database under the year and module provided.
-7) System registers a confirm message to the user that the exam question has been successfully uploaded.
+<h2>Main Success Scenario :</h2>
 
+
+<ol>
+    <li>System: The system requests the year for the Exam Question.</li>
+    <li>Student: The student enters the year for the Exam Question. </li>
+    <li>System: The system requests the module for the Exam Question.</li>
+    <li>Student: The student enters the module for the Exam Question. </li>
+    <li>System: The system requests the topic for the Exam Question.</li>
+    <li>Student: The student enters the topic for the Exam Question. </li>
+    <li>System: The system requests the Exam Question text from the student</li>
+    <li>Student: The student enters the Exam Question Text.</li>
+    <li>Student: The student clicks the "Submit" button</li>
+    <li>System: The system saves the exam question entered.</li>
+    <li>System: The system displays a confirm message to the user that the exam question has been successfully uploaded.</li>
+</ol>
 Extensions :
-5a) The exam question has already been asked.
-5a1) The system displays an error message saying the exam question has already been asked and how to rectify the situation.
-5a2) User either leaves this use case or tries again after rectifying the cause.
+<li>2a The student fails to enter the year of the Exam Question</li>
 
-5b) The text field is invalid
-5b1) The system displays an error message saying the text field cannot be empty when adding an exam question.
-5b2) User either leaves this use case or tries again after rectifying the cause.
+<li>4a The student fails to enter the module for the Exam Question</li>
 
-3a) The user does not select an exam year
-3a1) The system displays an error message saying the exam yearmust be chosen.
-3a2)  User either leaves this use case or tries again after rectifying the cause.
+<li>6a The student fails to enter the topic for the Exam Question</li>
 
-3b) The user does not select a module
-3b1) The system displays an error message saying the module must be chosen.
-3b2)  User either leaves this use case or tries again after rectifying the cause.
+<li>10a The Exam Question for the year, module and topic entered has already been asked by another student.</li>
 
-Technology and Data Variations List : None
-Priority: Various
-Releases: None
-Frequency of Use : Three times a week
-Channel to Primary Actor: Internet Browser
-Channel to Secondary Actor: None
+<h2>Postcondition : The Exam Question is stored. The Exam Question cannot be asked again in the future.</h2>
+<h2>Priority: High</h2>
+<h2>Releases: None</h2>
+<h2>Frequency of Use : Three times a week</h2>
+<h2>Channel to Primary Actor: System</h2>
 
-Open Issues:
-Is question directly added to database?
-Can it become possible to cancel the adding of the question.
+
 
 
 </body>
