@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/ExamOverflow/Answer.java" afterPath="$PROJECT_DIR$/src/src/ExamOverflow/Answer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -28,9 +29,30 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/src/ExamOverflow/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3655914">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.9390681">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <folding>
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,6 +193,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamOverflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamOverflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Use Cases" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,7 +491,7 @@
       <workItem from="1448305308419" duration="262000" />
       <workItem from="1448539171177" duration="388000" />
       <workItem from="1448730547232" duration="40000" />
-      <workItem from="1449152060532" duration="742000" />
+      <workItem from="1449152060532" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="Created Remove User fully dressed use case">
       <created>1448293950498</created>
@@ -471,15 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1449152718244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created Answer Class&#10;">
+      <created>1449152852762</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1449152852762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2014000" />
+    <option name="totallyTimeSpent" value="2268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -492,7 +538,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -608,11 +654,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/OOP4/CP3LinkedList/CP3LinkedList/CP3LinkedList/src/DoubleLinked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2437276">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/ExamOverflow/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3655914">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.9390681">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
