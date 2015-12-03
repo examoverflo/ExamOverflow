@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Exam Question</title>
+</head>
+<body>
+
+<h2>Use Case Title: Post an Exam Question</h2>
+
+<h2>Use Case ID: 3</h2>
+
+<h2>Primary Actor : Student</h2>
+<h2>Secondary Actor: System</h2>
+
+<h2>Preconditions :The student is on the Post Exam Question Page</h2>
+
+<h2>Main Success Scenario :</h2>
+
+
+<ol>
+    <li>System: The system requests the year for the Exam Question.</li>
+    <li>Student: The student enters the year for the Exam Question. </li>
+    <li>System: The system requests the module for the Exam Question.</li>
+    <li>Student: The student enters the module for the Exam Question. </li>
+    <li>System: The system requests the topic for the Exam Question.</li>
+    <li>Student: The student enters the topic for the Exam Question. </li>
+    <li>System: The system requests the Exam Question text from the student</li>
+    <li>Student: The student enters the Exam Question Text.</li>
+    <li>Student: The student clicks the "Submit" button</li>
+    <li>System: The system saves the exam question entered.</li>
+    <li>System: The system displays a confirm message to the user that the exam question has been successfully uploaded.</li>
+</ol>
+Extensions :
+<li>2a The student fails to enter the year of the Exam Question</li>
+
+<li>4a The student fails to enter the module for the Exam Question</li>
+
+<li>6a The student fails to enter the topic for the Exam Question</li>
+
+<li>10a The Exam Question for the year, module and topic entered has already been asked by another student.</li>
+
+<h2>Postcondition : The Exam Question is stored. The Exam Question cannot be asked again in the future.</h2>
+<h2>Priority: High</h2>
+<h2>Releases: None</h2>
+<h2>Frequency of Use : Three times a week</h2>
+<h2>Channel to Primary Actor: System</h2>
+
+
+
+
+</body>
+</html>

@@ -2,68 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Remove User</title>
+    <title>Deny Disruptive Student Access</title>
 </head>
 <body>
-<h1>Remove User - Fully Dressed Use Case</h1>
+<h1>Use Case Title: Deny Disruptive Student Access</h1>
+<h3>Use Case ID: 4</h3>
 <h3>Primary Actor: Administrator</h3>
-<h3>Secondary Actor: Student</h3>
-<h3>Scope: An administrator is a student who ranks among the top 10 users with regard to likes.</h3>
-<h3>Goal in Context: An administrator wishes to remove a disruptive student from the system</h3>
+<h3>Secondary Actor: Disruptive Student</h3>
+<h3>Goal in Context: An administrator wishes to deny a disruptive student access to the system.</h3>
 
 <h3>Stakeholders and Interests</h3>
 <ul>
-    <li>Administrator: Wants to remove a student and all contrinution from the system, in a simple
-        and easy to use manner.</li>
-    <li>Student: Wants to receive a message detailing why they have been removed from the system</li>
-    <li>Other Students: Wants to receive email if their answer has been removed, because another users question has been removed.</li>
-</ul>
-<h3>Precondition: Administrator has administration rights.</h3>
-<h3>Minimal Guarantess: All answers posted by the Student have been removed from the system.</h3>
-<h3>Success Guarantees: All answers and questions posted by the Student have been deleted as well as the
-    users account. The Student has received a email detailing the reasons for their removal.Other Students have received
-    emails if their answers have been deleted in the process</h3>
+    <li>Administrator: Wants to deny a disruptive student access to the system</li>
+    <li>Disruptive Student: Wants to receive a email detailing why they have been barred from using the system</li>
 
-<h3>Trigger: Administrator decides a Student needs to be removed from the system</h3>
+
+</ul>
+<h3>Preconditions: Administrator has rights to deny a student access to the system.<br>
+                   Administrator and disruptive student are members of system.<br>
+                   Disruptive student must not already be denied access. </h3>
+
+
+
+<h3>Trigger: Administrator removes access to system from a disruptive student</h3>
 <h3>Main Success Scenario</h3>
 <ol>
-    <li>Administrator: Administrator click button to remove a student</li>
-    <li>System: System verifies that the Administrator has administration rights</li>
-    <li>System: System removes all answers given by the Student</li>
-    <li>System: System removes all answers to question posted by the Student</li>
-    <li>System: System sends email to all  Other Students who have answered questions posted by the Student</li>
-    <li>System: System removes all questions asked by the Student</li>
-    <li>System: System removes the Students account from the system</li>
-    <li>System: System creates a template email for the Administrator</li>
-    <li>Administrator: Administrator completes the email, specifying the reasons for the Students removal</li>
-    <li>System: System sends the completed email to the Student</li>
+    <li>Administrator: Administrator clicks button to deny a disruptive student access.</li>
+    <li>System: The system sends a email to the disruptive student detailing why they have been removed.</li>
+
+
 </ol>
 <h3>Alternative Flow</h3>
 <ul>
-    <li>2a: Administrator doesn't have administration rights</li>
-    <li>2b: System displays meessage saying Administrator does't have administration rights</li>
-    <li>3a: An error occurs when trying to delete the answers </li>
-    <li>3b: System displays an error message saying the answers could not be removed. System does not continue.</li>
-    <li>4a: An error occurs when trying to delete answers for question posted by the Student</li>
-    <li>4b: System displays an error message and the system ends the process</li>
-    <li>4c: The system rollsback previous changes</li>
-    <li>5a: An error occurs when sending the email to Other Students</li>
-    <li>5b: System displays error message and ends the process </li>
-    <li>5c: The system rollsback previous changes</li>
-    <li>6a: An error occurs when trying to remove questions asked by the Student</li>
-    <li>6b: System displays an error message and the process is ended</li>
-    <li>6c: The system rollsback previous changes</li>
-    <li>7a: An error occurs when trying to remove the Students account</li>
-    <li>7b: System displays an error message and the process is ended</li>
-    <li>7c: The system rollsback previous changes</li>
-    <li>8a: An error occurs when the template email is generated</li>
-    <li>8b: System displays an errror message and the process is ended</li>
-    <li>8c: The system rollsback previous changes</li>
-    <li>10a:An error occurs when the system tries to send the eamil to the Students </li>
-    <li>10b:The system displays an error message and the process is ended</li>
-    <li>10c: The system rollsback previous changes</li>
+
 </ul>
 
+<h3>Post Condition: <br>
+    Disruptive student can no longer access the system.
+
+    </h3>
 <h3>Priority: Low-Medium</h3>
 <h3>Releases: Several</h3>
 <h3>Frequency of Use: Low, maybe once a month</h3>
