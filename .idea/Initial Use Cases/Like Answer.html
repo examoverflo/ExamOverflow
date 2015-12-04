@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>Like an Answer</h1><br>
+<strong>Use Case Title:</strong> Like an answer<br>
+<strong>Use Case ID:</strong> UC3<br>
+<strong>Primary actor:</strong> Student<br>
+<strong>Goal in context:</strong> A student wishes to express their approval of an answer that satisfied
+the question posted on Exam Overflow by ‘liking’ the answer<br>
+<strong>Scope:</strong> Educational – The overall likes mechanism which orders answers
+by their popularity as provided by the community of contributing students<br>
+<strong>Level:</strong> Summary<br><br>
+<strong>Stakeholders and Interests</strong><br>
+<ul>
+    <li><strong>Student:</strong> Wish to like the answers posted. This is to give each answer a weighting, the
+        higher this weighting (number of likes) the more accurate and/or helpful the answer
+        is perceived to be</li>
+    <li><strong>Community:</strong> Group of students who contribute to Exam Overflow</li></ul>
+<strong>Preconditions:</strong><br>
+<li>The answer must be posted before it can be liked.</li><br>
+<strong>Minimal Guarantees:</strong> An answer receives a like. This verifies that the
+content of the answer is accurate and helpful.<br>
+
+<strong>Success Guarantees:</strong> An answer that receives a high number of likes
+will be highly rated and thus should be a trusted source of information for the rest
+of the community.<br>
+
+<strong>Trigger:</strong> Student likes an answer<br><br>
+
+<strong>Main Success Scenario</strong><ol>
+    <li><strong>Student: </strong>Views answers provided by other students. Decides to like an answer and so clicks the like button.</li>
+    <li><strong>System: </strong>Checks if the student has already liked the answer</li>
+    <li><strong>System: </strong>Updates the likes for the associated answer.</li>
+</ol>
+<strong>Extensions:</strong><br>
+<strong>1a. Student </strong>attempts to like an answer that they have already liked.<br>
+<strong>3a. System </strong>will not update the likes for the associated answer. Rather displays a message saying a student
+can only like the same answer once.<br><br>
+<strong>Post conditions:</strong><ul>
+    <li>The number of likes for the answer has increased.</li>
+    <li>The student cannot like the same answer more than once.</li>
+</ul>
+<strong>Technology and Data Variations List: </strong>None<br>
+<strong>Priority: </strong>High<br>
+<strong>Releases: </strong>One<br>
+<strong>Response Time: </strong>Instantaneous<br>
+<strong>Frequency of use: </strong>Daily<br>
+<strong>Channel to Primary Actor: </strong>System, valid ITT login details.<br>
+<strong>Open Issues: </strong>None.<br>
+
+</body>
+</html>
