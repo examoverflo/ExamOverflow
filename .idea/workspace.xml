@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Question.html" />
+      <change type="MOVED" beforePath="C:\Users\Gerard\IdeaProjects\ExamOverflow3\.idea\Initial Use Cases\Like Answer.html" afterPath="$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Like Answer.html" />
+      <change type="MOVED" beforePath="C:\Users\Gerard\IdeaProjects\ExamOverflow3\.idea\Initial Use Cases\Provide Answer to Question.html" afterPath="$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Provide Answer to Question.html" />
+      <change type="MOVED" beforePath="C:\Users\Gerard\IdeaProjects\ExamOverflow3\.idea\Initial Use Cases\Register Student.html" afterPath="$PROJECT_DIR$/.idea/Initial Use Cases/Casual Use Cases/Register Student.html" />
+      <change type="MOVED" beforePath="C:\Users\Gerard\IdeaProjects\ExamOverflow3\.idea\Initial Use Cases\Seek Answer To Question.html" afterPath="$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Seek Answer To Question.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -27,7 +30,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Seek Answer To Question.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Seek Answer To Question.html">
+        <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Seek Answer To Question.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.9615384">
               <caret line="3" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
@@ -36,18 +39,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seek Answer to Question.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Seek Answer to Question.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76632303">
-              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+            <state vertical-scroll-proportion="-12.576923">
+              <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Provide Answer to Question.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Provide Answer to Question.html">
+        <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Provide Answer to Question.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.8076923">
               <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
@@ -56,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Register Student.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Register Student.html">
+      <file leaf-file-name="Register Student.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Casual Use Cases/Register Student.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
+            <state vertical-scroll-proportion="0.6718213">
               <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
@@ -67,7 +70,7 @@
         </entry>
       </file>
       <file leaf-file-name="Like Answer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Like Answer.html">
+        <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Like Answer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-35.96154">
               <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
@@ -254,6 +257,32 @@
               <option name="myItemId" value="Initial Use Cases" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fully Dressed Use Cases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamOverflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamOverflow3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Initial Use Cases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Casual Use Cases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -269,6 +298,12 @@
     <property name="last_opened_file_path" value="F:/EXAM_OVERFLOW/ExamOverflow/ExamOverflow" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gerard\IdeaProjects\ExamOverflow3\.idea\Initial Use Cases\Casual Use Cases" />
+      <recent name="C:\Users\Gerard\IdeaProjects\ExamOverflow3\.idea\Initial Use Cases\Fully Dressed Use Cases" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -539,7 +574,7 @@
       <workItem from="1448539171177" duration="388000" />
       <workItem from="1448730547232" duration="40000" />
       <workItem from="1449152060532" duration="996000" />
-      <workItem from="1449250321315" duration="4310000" />
+      <workItem from="1449250321315" duration="4549000" />
     </task>
     <task id="LOCAL-00001" summary="Created Remove User fully dressed use case">
       <created>1448293950498</created>
@@ -595,15 +630,21 @@
       <option name="project" value="LOCAL" />
       <updated>1449253686000</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created Textual Analysis for fully dressed Seek Answer to Question use case">
+      <created>1449254707523</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1449254707523</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6578000" />
+    <option name="totallyTimeSpent" value="6817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -615,7 +656,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -649,7 +690,8 @@
     <MESSAGE value="Created Seek Answer to Question Use Case" />
     <MESSAGE value="Created Student Answers Question Use Case" />
     <MESSAGE value="Created Register Student Casual Use Case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Register Student Casual Use Case" />
+    <MESSAGE value="Created Textual Analysis for fully dressed Seek Answer to Question use case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Textual Analysis for fully dressed Seek Answer to Question use case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -740,15 +782,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Like Answer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-35.96154">
-          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Provide Answer to Question.html">
+    <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Provide Answer to Question.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.8076923">
           <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
@@ -756,15 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Register Student.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Seek Answer To Question.html">
+    <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Seek Answer To Question.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
           <caret line="3" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
@@ -774,8 +800,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Question.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76632303">
-          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+        <state vertical-scroll-proportion="-12.576923">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Fully Dressed Use Cases/Like Answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-35.96154">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Initial Use Cases/Casual Use Cases/Register Student.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6718213">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>
