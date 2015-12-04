@@ -16,12 +16,16 @@ public class Question {
     private Date datePosted = new Date();
     private String tNumber;
     private String questionText;
-    
+
     public Question(){
-        setQuestionId(questionId);
-        setDatePosted(datePosted);
-        settNumber(tNumber);
-        setQuestionText(questionText);
+
+    }
+
+    public Question(String tNumber, String questionText, Date datePosted, int questionId) {
+        this.tNumber = tNumber;
+        this.questionText = questionText;
+        this.datePosted = datePosted;
+        this.questionId = questionId;
     }
 
     public int getQuestionId() {
@@ -54,5 +58,14 @@ public class Question {
 
     public void setQuestionText(String questionText) {
         this.questionText = questionText;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "questionId=" + questionId +
+                ", datePosted=" + datePosted +
+                ", tNumber='" + tNumber + '\'' +
+                ", questionText='" + questionText + '\'';
     }
 }

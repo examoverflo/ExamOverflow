@@ -13,6 +13,8 @@ public class Answer {
     private Date datePosted;
     private int questionID;
 
+    public Answer(){}
+
     public Answer(String tnumber, String answerText, int id, Date datePosted, int questionID) {
         Tnumber = tnumber;
         this.answerText = answerText;
@@ -61,5 +63,13 @@ public class Answer {
         this.questionID = questionID;
     }
 
-
+    @Override
+    public String toString() {
+        return
+                " \n\nTnumber='" + Tnumber + '\'' +
+                ", answerText='" + answerText + '\'' +
+                ", id=" + id +
+                ", datePosted=" + datePosted +
+                ", questionID=" + questionID;
+    }
 }

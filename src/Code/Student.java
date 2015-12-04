@@ -7,29 +7,26 @@
 package Code;
 
 /**
- *
  * @author t00153953
  */
 public class Student {
 
-   
-    
- private String Tnumber; 
- private String Username;
- private String UserPassword;
- 
- 
- 
- 
+
+    private String Tnumber;
+    private String Username;
+    private String UserPassword;
+
+    public Student(){}
+
     public Student(String Tnumber, String Username, String UserPassword) {
-     this.Tnumber = Tnumber;
-     this.UserPassword = UserPassword;
-     this.Username = Username;
-   
+        this.Tnumber = Tnumber;
+        this.UserPassword = UserPassword;
+        this.Username = Username;
+
     }
-    
-    
-     public String getTnumber() {
+
+
+    public String getTnumber() {
         return Tnumber;
     }
 
@@ -40,9 +37,9 @@ public class Student {
     public String getUserPassword() {
         return UserPassword;
     }
-    
-    
-     public void setTnumber(String Tnumber) {
+
+
+    public void setTnumber(String Tnumber) {
         this.Tnumber = Tnumber;
     }
 
@@ -53,10 +50,8 @@ public class Student {
     public void setUserPassword(String UserPassword) {
         this.UserPassword = UserPassword;
     }
-    
-    
-    
-    
-    }
+
+
+}
     
 
