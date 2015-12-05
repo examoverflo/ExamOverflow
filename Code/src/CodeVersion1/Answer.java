@@ -16,7 +16,7 @@ public class Answer {
     public Answer(){}
 
     public Answer(String tnumber, String answerText, int id, Date datePosted, int questionID) {
-        Tnumber = tnumber;
+        this.Tnumber = tnumber;
         this.answerText = answerText;
         this.id = id;
         this.datePosted = datePosted;
@@ -66,10 +66,10 @@ public class Answer {
     @Override
     public String toString() {
         return
-                " \n\nTnumber='" + Tnumber + '\'' +
-                ", answerText='" + answerText + '\'' +
-                ", id=" + id +
-                ", datePosted=" + datePosted +
-                ", questionID=" + questionID;
+                " \nPosted By:'" + Tnumber +
+                "\nAnswer: " + answerText +
+                "\nID: " + id +
+                "\nDate Posted: " + datePosted +
+                "\nAnswers: qiestion" + questionID;
     }
 }

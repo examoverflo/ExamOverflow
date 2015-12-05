@@ -10,34 +10,34 @@ import java.util.List;
 public class Tester {
     public static void main(String args[]){
 
-        Student student =  new Student();
-        List<Question> questionList = new LinkedList();
+        Inventory inventory = new Inventory();
+        initiliseInventory(inventory);
 
-        Question question = new Question("T00000000","What time is it",new Date(System.nanoTime()),1);
+        System.out.println(new Date());
 
-        questionList.add(question);
-        question = new Question("T00000000","What time is it",new Date(),2);
+        List<Answer> questionAnswer = inventory.search(1);
+        System.out.println("Searching for answer to ");
 
-        questionList.add(question);
-        for(Question que:questionList){
-             System.out.println(que.toString());
+        if(!questionAnswer.isEmpty()) {
+            System.out.println("................\n"
+                             + "Here are all the answers:");
+            for (Answer answer : questionAnswer) {
+                System.out.println(answer.toString());
+            }
         }
-
-        Answer ans = new Answer("T12345678","The time is on the clock",1,new Date(),1);
-
-        List<Answer> answers = new LinkedList();
-
-        answers.add(ans);
-        ans = new Answer("T12345678","The time is 12.33",1,new Date(),1);
-        answers.add(ans);
-        ans = new Answer("T12345678","The time is on the clock",1,new Date(),2);
-
-        answers.add(ans);
-        for(Answer a:answers) {
-            if(a.getQuestionID()==2){
-            System.out.println(a.toString());
+        else {
+            System.out.println("Unfortunately, no answers have been given for this question");
         }
-        }
+    }
+
+    private static void initiliseInventory(Inventory inventory){
+
+        inventory.addQuestion("T00000001","What is OOP",new Date(),1);
+        inventory.addQuestion("T00000000","What is Encapsulation",new Date(),2);
+        inventory.addQuestion("T00000001","What is OOAD",new Date(),3);
+        inventory.addQuestion("T00000000","What is Polymorphismn",new Date(),4);
+        inventory.addAnswer("T12345678","OOP is object oriantated programming.",1,new Date(),1);
+        inventory.addAnswer("T12345678","The time is on the clock",1,new Date(),2);
 
     }
 }
