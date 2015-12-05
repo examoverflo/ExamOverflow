@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package Code;
+package CodeVersion1;
 
 /**
  * @author t00153953
