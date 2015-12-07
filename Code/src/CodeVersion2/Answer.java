@@ -13,8 +13,8 @@ public class Answer {
     private Date datePosted;
     private int questionID;
 
-    public Answer(String tnumber, String answerText, int answerId, Date datePosted, int questionID) {
-        this.tNumber = tnumber;
+    public Answer(String tNumber, String answerText, int answerId, Date datePosted, int questionID) {
+        this.tNumber = tNumber;
         this.answerText = answerText;
         this.answerId = answerId;
         this.datePosted = datePosted;
@@ -45,14 +45,13 @@ public class Answer {
         return questionID;
     }
 
-
     @Override
     public String toString() {
         return
-                " \nPosted By:'" + tNumber +
-                "\nAnswer: " + answerText +
-                "\nID: " + answerId +
-                "\nDate Posted: " + datePosted +
-                "\nAnswers: qiestion" + questionID;
+                "\nPosted By:" + gettNumber() +
+                "\nAnswer: " + getAnswerText() +
+                "\nAnswer ID: " + getAnswerId() +
+                "\nDate Posted: " + getDatePosted() +
+                "\nAnswers: question" + getQuestionID();
     }
 }
