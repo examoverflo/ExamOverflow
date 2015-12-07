@@ -15,6 +15,7 @@ public abstract class Question {
     private int questionId;
     private String tNumber;
     private String questionText;
+    //need enum for module
 
     public Question(){
 
