@@ -31,16 +31,8 @@ public abstract class Question {
         return questionId;
     }
 
-    public void setQuestionId(int questionId) {
-        this.questionId = questionId;
-    }
-
-    public String gettNumber() {
+    public String getTNumber() {
         return tNumber;
-    }
-
-    public void settNumber(String tNumber) {
-        this.tNumber = tNumber;
     }
 
     public String getQuestionText() {
@@ -55,7 +47,7 @@ public abstract class Question {
     public String toString() {
         return
                 "\nQuestion Id:" + getQuestionId() +
-                "\ntNumber:" + gettNumber() +
+                "\ntNumber:" + getTNumber() +
                 "\nQuestion Text:" + getQuestionText();
     }
 }
