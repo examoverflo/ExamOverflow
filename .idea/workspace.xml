@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java" afterPath="$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -96,7 +95,7 @@
       <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2568306">
+            <state vertical-scroll-proportion="0.18032786">
               <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -673,7 +672,7 @@
       <workItem from="1449500528997" duration="40000" />
       <workItem from="1449500580805" duration="53000" />
       <workItem from="1449500645051" duration="3321000" />
-      <workItem from="1449511168209" duration="5064000" />
+      <workItem from="1449511168209" duration="5170000" />
     </task>
     <task id="LOCAL-00001" summary="Created Remove User fully dressed use case">
       <created>1448293950498</created>
@@ -861,11 +860,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449516164096</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Extracted searchForAnswers() method which takes in the inventory that will be searched and the questionId.">
+      <created>1449516380125</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1449516380125</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26275000" />
+    <option name="totallyTimeSpent" value="26381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -935,7 +940,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Answer Class&#10;" />
     <MESSAGE value="Created Like Answer Use Case" />
     <MESSAGE value="Created Seek Answer to Question Use Case" />
     <MESSAGE value="Created Student Answers Question Use Case" />
@@ -960,7 +964,8 @@
     <MESSAGE value="Updated Inventory Class to include Module and Topic when creating the Question" />
     <MESSAGE value="Updated the Tester Class to initialise both GeneralQuestion and ExamQuestion" />
     <MESSAGE value="Improved Tester Class by adding a new Question and then searching to show there are no answers for the question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved Tester Class by adding a new Question and then searching to show there are no answers for the question" />
+    <MESSAGE value="Extracted searchForAnswers() method which takes in the inventory that will be searched and the questionId." />
+    <option name="LAST_COMMIT_MESSAGE" value="Extracted searchForAnswers() method which takes in the inventory that will be searched and the questionId." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1458,7 +1463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2568306">
+        <state vertical-scroll-proportion="0.18032786">
           <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
