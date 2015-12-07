@@ -8,22 +8,23 @@ import java.util.Date;
 public class GeneralQuestion extends Question{
 
     private Date datePosted = new Date();
+    private Topic topic;
 
-    public GeneralQuestion(String tNumber, String questionText, int questionId, Date datePosted, Module module){
+    public GeneralQuestion(String tNumber, String questionText, int questionId, Date datePosted, Module module, Topic topic){
 
         super(tNumber, questionText, questionId, module);
-        setDatePosted(datePosted);
+        this.datePosted = datePosted;
+        this.topic = topic;
     }
 
     public Date getDatePosted() {
         return datePosted;
     }
 
-    public void setDatePosted(Date datePosted) {
-        this.datePosted = datePosted;
+    public Topic getTopic(){
+        return topic;
     }
-
     public String toString(){
-        return super.toString() + ", datePosted=" + getDatePosted();
+        return super.toString() + "\nDate Posted: " + getDatePosted() + "\nTopic: " + getTopic();
     }
 }
