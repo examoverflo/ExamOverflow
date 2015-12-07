@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="Updated Question Class to include reference to Module Enum">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java" afterPath="$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java" afterPath="$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java" />
+    <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/src/CodeVersion2/Topic.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -64,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExamQuestion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExamQuestion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29928315">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Topic.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Topic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21326165">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -141,11 +150,11 @@
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion1/Answer.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Answer.java" />
-        <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Topic.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Module.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Question.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java" />
+        <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Topic.java" />
       </list>
     </option>
   </component>
@@ -311,6 +320,9 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Damien\Desktop\ExamOverflow\Code\src\CodeVersion2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Damien\Desktop\ExamOverflow\Code\src\CodeVersion2" />
       <recent name="F:\OOAD\ooad\ExamOverflow\Code\src\CodeVersion1" />
@@ -622,7 +634,7 @@
       <workItem from="1449500528997" duration="40000" />
       <workItem from="1449500580805" duration="53000" />
       <workItem from="1449500645051" duration="3321000" />
-      <workItem from="1449511168209" duration="1917000" />
+      <workItem from="1449511168209" duration="2140000" />
     </task>
     <task id="LOCAL-00001" summary="Created Remove User fully dressed use case">
       <created>1448293950498</created>
@@ -774,11 +786,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449512962575</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Updated GeneralQuestion and ExamQuestion to include module">
+      <created>1449513141412</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1449513141412</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23128000" />
+    <option name="totallyTimeSpent" value="23351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -868,7 +886,8 @@
     <MESSAGE value="Update the toString method to use the getter methods." />
     <MESSAGE value="Update the Question Class, removed the setter methods for tNumber and questionId as they are immutable variables" />
     <MESSAGE value="Updated Question Class to include reference to Module Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Question Class to include reference to Module Enum" />
+    <MESSAGE value="Updated GeneralQuestion and ExamQuestion to include module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated GeneralQuestion and ExamQuestion to include module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -879,14 +898,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion1/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1351,8 +1362,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29928315">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+          <folding>
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21326165">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
