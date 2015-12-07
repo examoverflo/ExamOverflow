@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java" afterPath="$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java" afterPath="$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/src/CodeVersion2/Question.java" afterPath="$PROJECT_DIR$/Code/src/CodeVersion2/Question.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -26,18 +27,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Question.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63978493">
+              <caret line="25" column="103" selection-start-line="25" selection-start-column="103" selection-end-line="25" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,63 +78,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneralQuestion.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82258064">
-              <caret line="27" column="96" selection-start-line="27" selection-start-column="96" selection-end-line="27" selection-end-column="96" />
-              <folding>
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExamQuestion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Topic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Topic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Question.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -152,14 +124,14 @@
         <option value="$PROJECT_DIR$/Code/src/CodeVersion1/Inventory.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion1/Tester.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java" />
-        <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion1/Answer.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Answer.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Module.java" />
-        <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Question.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Topic.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java" />
+        <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Question.java" />
+        <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java" />
       </list>
     </option>
   </component>
@@ -639,7 +611,7 @@
       <workItem from="1449500528997" duration="40000" />
       <workItem from="1449500580805" duration="53000" />
       <workItem from="1449500645051" duration="3321000" />
-      <workItem from="1449511168209" duration="2478000" />
+      <workItem from="1449511168209" duration="2715000" />
     </task>
     <task id="LOCAL-00001" summary="Created Remove User fully dressed use case">
       <created>1448293950498</created>
@@ -803,11 +775,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449513353542</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Updated GeneralQuestion to include Topic">
+      <created>1449513699930</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1449513699930</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23689000" />
+    <option name="totallyTimeSpent" value="23926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -899,7 +877,8 @@
     <MESSAGE value="Updated Question Class to include reference to Module Enum" />
     <MESSAGE value="Updated GeneralQuestion and ExamQuestion to include module" />
     <MESSAGE value="Created Topic Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Topic Enum" />
+    <MESSAGE value="Updated GeneralQuestion to include Topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated GeneralQuestion to include Topic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -972,16 +951,16 @@
           <caret line="16" column="32" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1271,14 +1250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Question.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.538462">
@@ -1318,21 +1289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ricksGuitars-start/Guitar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1352,11 +1308,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82258064">
+          <caret line="27" column="96" selection-start-line="27" selection-start-column="96" selection-end-line="27" selection-end-column="96" />
+          <folding>
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8172043">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1368,44 +1356,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/ExamQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/GeneralQuestion.java">
+    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82258064">
-          <caret line="27" column="96" selection-start-line="27" selection-start-column="96" selection-end-line="27" selection-end-column="96" />
-          <folding>
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.63978493">
+          <caret line="25" column="103" selection-start-line="25" selection-start-column="103" selection-end-line="25" selection-end-column="103" />
+          <folding />
         </state>
       </provider>
     </entry>

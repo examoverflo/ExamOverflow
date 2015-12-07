@@ -14,15 +14,11 @@ import java.util.Date;
  * @author Gerard
  */
 public abstract class Question {
+
     private int questionId;
     private String tNumber;
     private String questionText;
-
     private Module module;
-
-    public Question(){
-
-    }
 
     public Question(String tNumber, String questionText, int questionId, Module module) {
         this.tNumber = tNumber;

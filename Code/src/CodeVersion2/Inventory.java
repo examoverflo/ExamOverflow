@@ -20,18 +20,18 @@ public class Inventory {
         answers = new LinkedList<Answer>();
     }
 
-    public void addGeneralQuestion(String tNumber, String questionText, int questionId, Date datePosted){
+    public void addGeneralQuestion(String tNumber, String questionText, int questionId,
+                                   Date datePosted, Module module, Topic topic){
 
-        Question question = new GeneralQuestion(tNumber,questionText,questionId,datePosted);
+        Question question = new GeneralQuestion(tNumber,questionText,questionId,datePosted,module,topic);
 
         questions.add(question);
     }
 
-    public void addExamQuestion(String tNumber, String questionText, int questionId, int examYear, int questionNo){
-        /*super(tNumber, questionText, questionId);
-        setExamYear(examYear);
-        setQuestionNo(questionNo);*/
-        Question question = new ExamQuestion(examYear, questionNo, questionId, tNumber, questionText);
+    public void addExamQuestion(String tNumber, String questionText, int questionId,
+                                int examYear, int questionNo, Module module){
+
+        Question question = new ExamQuestion(examYear, questionNo, questionId, tNumber, questionText, module);
 
         questions.add(question);
     }
