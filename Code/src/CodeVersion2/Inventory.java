@@ -11,18 +11,27 @@ import java.util.List;
  */
 public class Inventory {
 
-    private List<GeneralQuestion> questions;
+    private List<Question> questions;
     private List<Answer> answers;
 
 
     public Inventory(){
-        questions = new LinkedList<GeneralQuestion>();
+        questions = new LinkedList<Question>();
         answers = new LinkedList<Answer>();
     }
 
-    public void addQuestion(String tNumber, String questionText, int questionId, Date datePosted){
+    public void addGeneralQuestion(String tNumber, String questionText, int questionId, Date datePosted){
 
-        GeneralQuestion question = new GeneralQuestion(tNumber,questionText,questionId,datePosted);
+        Question question = new GeneralQuestion(tNumber,questionText,questionId,datePosted);
+
+        questions.add(question);
+    }
+
+    public void addExamQuestion(String tNumber, String questionText, int questionId, int examYear, int questionNo){
+        /*super(tNumber, questionText, questionId);
+        setExamYear(examYear);
+        setQuestionNo(questionNo);*/
+        Question question = new ExamQuestion(examYear, questionNo, questionId, tNumber, questionText);
 
         questions.add(question);
     }
