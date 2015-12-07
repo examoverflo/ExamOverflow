@@ -54,8 +54,8 @@ public abstract class Question {
     @Override
     public String toString() {
         return
-                "questionId=" + questionId +
-                ", tNumber='" + tNumber + '\'' +
-                ", questionText='" + questionText + '\'';
+                "\nQuestion Id:" + getQuestionId() +
+                "\ntNumber:" + gettNumber() +
+                "\nQuestion Text:" + getQuestionText();
     }
 }
