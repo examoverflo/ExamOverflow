@@ -31,6 +31,6 @@ public class ExamQuestion extends Question{
     }
 
     public String toString(){
-        return super.toString() + ", examYear = " + getExamYear() + ", question = " + getQuestionNo();
+        return super.toString() + ", examYear :" + getExamYear() + ", question :" + getQuestionNo();
     }
 }
