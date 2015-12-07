@@ -15,9 +15,17 @@ public class Tester {
         Inventory inventory = new Inventory();
         initiliseInventory(inventory);
 
-        List<Answer> questionAnswer = inventory.search(1);
+        System.out.println("John logs into the system.......\n\n");
 
-        System.out.println("Searching for answer to...");
+        System.out.println("John wants to ask a question about SQL after his Datebase Design class.");
+
+        inventory.addGeneralQuestion("T00112233","How do you write triggers in pl/sql",
+                                     4,new Date(),Module.DATABASE_DESIGN, Topic.SQL);
+
+
+        List<Answer> questionAnswer = inventory.search(4);
+
+        System.out.println("Searching for answer to...John's question....\n");
 
         if(!questionAnswer.isEmpty()) {
             System.out.println("................\n"
@@ -36,11 +44,11 @@ public class Tester {
         inventory.addGeneralQuestion("T00000000", "What does OOP stand for.", 1, new Date(), Module.OOP3, Topic.JAVA);
         inventory.addGeneralQuestion("T00000000", "What is a primary key.", 2, new Date(), Module.DATABASE_DESIGN, Topic.SQL);
 
-        inventory.addExamQuestion("T00000011","Explain the difference between method overloading and method overiding.",
-                                  3,2014,2,Module.OOP4);
+        inventory.addExamQuestion("T00000011", "Explain the difference between method overloading and method overiding.",
+                3, 2014, 2, Module.OOP4);
 
         inventory.addAnswer("T12345678","OOP stands for Object Orientated Programming.",1,new Date(),1);
-        inventory.addAnswer("T12345678","A primary key is a unique identifier",2,new Date(),2);
+        inventory.addAnswer("T12345678", "A primary key is a unique identifier", 2, new Date(), 2);
 
 
 
