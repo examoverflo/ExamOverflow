@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java" afterPath="$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -95,8 +96,8 @@
       <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18032786">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.5860215">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -672,7 +673,7 @@
       <workItem from="1449500528997" duration="40000" />
       <workItem from="1449500580805" duration="53000" />
       <workItem from="1449500645051" duration="3321000" />
-      <workItem from="1449511168209" duration="5170000" />
+      <workItem from="1449511168209" duration="5471000" />
     </task>
     <task id="LOCAL-00001" summary="Created Remove User fully dressed use case">
       <created>1448293950498</created>
@@ -866,11 +867,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449516380125</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Extracted searchForAnswers() method which takes in the inventory that will be searched and the questionId.">
+      <created>1449516400475</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1449516400475</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26381000" />
+    <option name="totallyTimeSpent" value="26682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -884,7 +891,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.81399316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33055976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1404,26 +1411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#1349#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1461,10 +1448,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#1349#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18032786">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.5860215">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

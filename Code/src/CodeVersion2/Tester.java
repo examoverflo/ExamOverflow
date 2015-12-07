@@ -17,13 +17,23 @@ public class Tester {
 
         System.out.println("John logs into the system.......\n\n");
 
-        System.out.println("John wants to ask a question about SQL after his Datebase Design class.");
+        System.out.println("John wants to ask a question about SQL after his Datebase Design class.\n");
 
         inventory.addGeneralQuestion("T00112233", "How do you write triggers in pl/sql",
                 4, new Date(), Module.DATABASE_DESIGN, Topic.SQL);
 
 
+        searchForAnswers(inventory, 4);
+
+        System.out.println("John logs out of the system.......\n");
+
+        inventory.addAnswer("T12345679", "To write triggers in pl/sql you need to learn the syntax", 4, new Date(), 4);
+
+        System.out.println("The nest day John logs back into the system to check for answers......\n");
+
         searchForAnswers(inventory,4);
+
+        System.out.println();
     }
 
     private static void searchForAnswers(Inventory inventory,int questionId) {
