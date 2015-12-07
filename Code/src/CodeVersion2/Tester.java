@@ -1,7 +1,7 @@
 package CodeVersion2;
 
-import CodeVersion1.Answer;
-import CodeVersion1.Inventory;
+import CodeVersion2.Answer;
+import CodeVersion2.Inventory;
 
 import java.util.Date;
 import java.util.List;
@@ -15,10 +15,9 @@ public class Tester {
         Inventory inventory = new Inventory();
         initiliseInventory(inventory);
 
-        System.out.println(new Date());
-
         List<Answer> questionAnswer = inventory.search(1);
-        System.out.println("Searching for answer to ");
+
+        System.out.println("Searching for answer to...");
 
         if(!questionAnswer.isEmpty()) {
             System.out.println("................\n"
@@ -34,14 +33,16 @@ public class Tester {
 
     private static void initiliseInventory(Inventory inventory){
 
-        inventory.addQuestion("T00000001","What is OOP",new Date(),1);
-        inventory.addQuestion("T00000000","What is Encapsulation",new Date(),2);
-        inventory.addQuestion("T00000001","What is OOAD",new Date(),3);
-        inventory.addQuestion("T00000000","What is Polymorphismn",new Date(),4);
-        inventory.addAnswer("T12345678","OOP is object oriantated programming.",1,new Date(),1);
-        inventory.addAnswer("T12345678","The time is on the clock",1,new Date(),2);
-        inventory.addQuestion("T00000000","What is Encapsulation",new Date(),2);
-        /*super(tNumber, questionText, questionId);
-        setDatePosted(datePosted);*/
+        inventory.addGeneralQuestion("T00000000", "What does OOP stand for.", 1, new Date(), Module.OOP3, Topic.JAVA);
+        inventory.addGeneralQuestion("T00000000", "What is a primary key.", 2, new Date(), Module.DATABASE_DESIGN, Topic.SQL);
+
+        inventory.addExamQuestion("T00000011","Explain the difference between method overloading and method overiding.",
+                                  3,2014,2,Module.OOP4);
+
+        inventory.addAnswer("T12345678","OOP stands for Object Orientated Programming.",1,new Date(),1);
+        inventory.addAnswer("T12345678","A primary key is a unique identifier",2,new Date(),2);
+
+
+
     }
 }

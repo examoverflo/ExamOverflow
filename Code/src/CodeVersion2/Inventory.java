@@ -1,7 +1,5 @@
 package CodeVersion2;
 
-import CodeVersion1.Answer;
-
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -36,9 +34,9 @@ public class Inventory {
         questions.add(question);
     }
 
-    public void addAnswer(String tnumber, String answerText, int id, Date datePosted, int questionID){
+    public void addAnswer(String tNumber, String answerText, int answerID, Date datePosted, int questionID){
 
-        Answer answer = new Answer(tnumber,answerText,id,datePosted,questionID);
+        Answer answer = new Answer(tNumber,answerText,answerID,datePosted,questionID);
         answers.add(answer);
     }
 
