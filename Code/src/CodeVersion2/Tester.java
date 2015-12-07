@@ -19,11 +19,15 @@ public class Tester {
 
         System.out.println("John wants to ask a question about SQL after his Datebase Design class.");
 
-        inventory.addGeneralQuestion("T00112233","How do you write triggers in pl/sql",
-                                     4,new Date(),Module.DATABASE_DESIGN, Topic.SQL);
+        inventory.addGeneralQuestion("T00112233", "How do you write triggers in pl/sql",
+                4, new Date(), Module.DATABASE_DESIGN, Topic.SQL);
 
 
-        List<Answer> questionAnswer = inventory.search(4);
+        searchForAnswers(inventory,4);
+    }
+
+    private static void searchForAnswers(Inventory inventory,int questionId) {
+        List<Answer> questionAnswer = inventory.search(questionId);
 
         System.out.println("Searching for answer to...John's question....\n");
 
