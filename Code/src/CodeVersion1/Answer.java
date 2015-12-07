@@ -7,28 +7,26 @@ import java.util.Date;
  */
 public class Answer {
 
-    private String Tnumber;
+    private int answerId;
     private String answerText;
-    private int id;
+    private String tNumber;
     private Date datePosted;
     private int questionID;
 
-    public Answer(){}
-
     public Answer(String tnumber, String answerText, int id, Date datePosted, int questionID) {
-        this.Tnumber = tnumber;
+        this.tNumber = tnumber;
         this.answerText = answerText;
-        this.id = id;
+        this.answerId = id;
         this.datePosted = datePosted;
         this.questionID = questionID;
     }
 
-    public String getTnumber() {
-        return Tnumber;
+    public String gettNumber() {
+        return tNumber;
     }
 
-    public void setTnumber(String tnumber) {
-        Tnumber = tnumber;
+    public void settNumber(String tNumber) {
+        this.tNumber = tNumber;
     }
 
     public String getAnswerText() {
@@ -39,12 +37,12 @@ public class Answer {
         this.answerText = answerText;
     }
 
-    public int getId() {
-        return id;
+    public int getAnswerId() {
+        return answerId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setAnswerId(int answerId) {
+        this.answerId = answerId;
     }
 
     public Date getDatePosted() {
@@ -66,9 +64,9 @@ public class Answer {
     @Override
     public String toString() {
         return
-                " \nPosted By:'" + Tnumber +
+                " \nPosted By:'" + tNumber +
                 "\nAnswer: " + answerText +
-                "\nID: " + id +
+                "\nID: " + answerId +
                 "\nDate Posted: " + datePosted +
                 "\nAnswers: qiestion" + questionID;
     }
