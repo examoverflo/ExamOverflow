@@ -5,6 +5,8 @@
  */
 package CodeVersion2;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
+
 import java.util.Date;
 
 /**
@@ -15,16 +17,18 @@ public abstract class Question {
     private int questionId;
     private String tNumber;
     private String questionText;
-    //need enum for module
+
+    private Module module;
 
     public Question(){
 
     }
 
-    public Question(String tNumber, String questionText, int questionId) {
+    public Question(String tNumber, String questionText, int questionId, Module module) {
         this.tNumber = tNumber;
         this.questionText = questionText;
         this.questionId = questionId;
+        this.module = module;
     }
 
     public int getQuestionId() {
@@ -43,11 +47,17 @@ public abstract class Question {
         this.questionText = questionText;
     }
 
+    public Module getModule() {
+        return module;
+    }
+
     @Override
     public String toString() {
         return
                 "\nQuestion Id:" + getQuestionId() +
                 "\ntNumber:" + getTNumber() +
+                "\nModule: " + getModule() +
                 "\nQuestion Text:" + getQuestionText();
+
     }
 }
