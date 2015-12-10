@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package CodeVersion1;
+package ExamOverflow_Code;
 
 /**
  * @author t00153953
