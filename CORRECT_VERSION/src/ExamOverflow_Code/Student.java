@@ -33,11 +33,6 @@ public class Student {
         return UserPassword;
     }
 
-
-    public void setTnumber(String Tnumber) {
-        this.Tnumber = Tnumber;
-    }
-
     public void setUserPassword(String UserPassword) {
         this.UserPassword = UserPassword;
     }
