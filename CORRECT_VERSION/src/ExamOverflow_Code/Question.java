@@ -36,6 +36,10 @@ public class Question {
         this.questionText = questionText;
     }
 
+    public String getTnumber(){
+        return questionAsker.getTNumber();
+    }
+
     @Override
     public String toString() {
         return
