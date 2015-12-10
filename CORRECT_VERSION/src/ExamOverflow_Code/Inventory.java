@@ -18,16 +18,16 @@ public class Inventory {
         answers = new LinkedList<Answer>();
     }
 
-    public void addQuestion(String tNumber, String questionText, Date datePosted, int questionId){
+    public void addQuestion(String questionText, Date datePosted, int questionId,String tNumber,String userPassword){
 
-        Question question = new Question(tNumber,questionText,datePosted,questionId);
+        Question question = new Question(questionText,datePosted,questionId,tNumber,userPassword);
 
         questions.add(question);
     }
 
-    public void addAnswer(String tnumber, String answerText, int id, Date datePosted, int questionID){
+    public void addAnswer(String answerText, int questionId, Date datePosted, int questionID,String tNumber,String userPassword){
 
-        Answer answer = new Answer(tnumber,answerText,id,datePosted,questionID);
+        Answer answer = new Answer(answerText,datePosted,questionId,tNumber,userPassword);
         answers.add(answer);
     }
 
