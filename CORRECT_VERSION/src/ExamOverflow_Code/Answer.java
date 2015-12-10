@@ -8,15 +8,17 @@ import java.util.Date;
 public class Answer {
 
     private String answerText;
-    private Date datePosted;
-    private int questionID;
+    private Date dateAnswered;
+    private Question question;
     private Student answerPoster;
 
-    public Answer(String answerText,Date datePosted, int questionID,String tNumber,String userPassword) {
+    public Answer(String answerText,Date dateAnswered,
+                  String questionText, Date datePosted, String tNumberQuestioner, String passwordQuestioner,
+                  String tNumberAnswerer, String passwordAnswerer) {
         this.answerText = answerText;
-        this.datePosted = datePosted;
-        this.questionID = questionID;
-        this.answerPoster = new Student(tNumber,userPassword);
+        this.dateAnswered = dateAnswered;
+        this.question = new Question(questionText, datePosted, tNumberQuestioner, passwordQuestioner);
+        this.answerPoster = new Student(tNumberAnswerer, passwordAnswerer);
     }
 
     public String getAnswerText() {
@@ -27,20 +29,16 @@ public class Answer {
         this.answerText = answerText;
     }
 
-    public Date getDatePosted() {
-        return datePosted;
-    }
-
-    public int getQuestionID() {
-        return questionID;
+    public Date getdateAnswered() {
+        return dateAnswered;
     }
 
    @Override
     public String toString() {
         return
-                "\nAnswer: " + answerText +
-                "\nDate Posted: " + datePosted +
-                "\nAnswers: qiestion" + questionID +
-                "\nPosted By: " + answerPoster.getTnumber();
+                "\nAnswer: " + getAnswerText() +
+                        "\nDate Answered: " + getdateAnswered() +
+                        "\n" + question.toString() +
+                        "\n" + answerPoster.toString();
     }
 }
