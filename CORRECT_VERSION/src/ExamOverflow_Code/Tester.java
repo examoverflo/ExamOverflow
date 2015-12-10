@@ -31,12 +31,12 @@ public class Tester {
 
     private static void initiliseInventory(Inventory inventory){
 
-        inventory.addQuestion("T00000001","What is OOP",new Date(),1);
-        inventory.addQuestion("T00000000","What is Encapsulation",new Date(),2);
-        inventory.addQuestion("T00000001","What is OOAD",new Date(),3);
-        inventory.addQuestion("T00000000","What is Polymorphismn",new Date(),4);
-        inventory.addAnswer("T12345678","OOP is object oriantated programming.",1,new Date(),1);
-        inventory.addAnswer("T12345678","The time is on the clock",1,new Date(),2);
+        inventory.addQuestion("What is OOP",new Date(),1,"T01901909","myPass");
+        inventory.addQuestion("What is OOP",new Date(),2,"T01901909","myPass");
+        inventory.addQuestion("What is OOP",new Date(),3,"T01901909","myPass");
+        inventory.addQuestion("What is OOP",new Date(),4,"T01901909","myPass");
+        //inventory.addAnswer("T12345678","OOP is object oriantated programming.",1,new Date(),1);
+        //inventory.addAnswer("T12345678","The time is on the clock",1,new Date(),2);
 
     }
 }
