@@ -14,15 +14,10 @@ import java.util.Date;
 public class Question {
     private int questionId;
     private Date datePosted = new Date();
-    private String tNumber;
     private String questionText;
 
-    public Question(){
 
-    }
-
-    public Question(String tNumber, String questionText, Date datePosted, int questionId) {
-        this.tNumber = tNumber;
+    public Question(String questionText, Date datePosted, int questionId) {
         this.questionText = questionText;
         this.datePosted = datePosted;
         this.questionId = questionId;
@@ -36,9 +31,7 @@ public class Question {
         return datePosted;
     }
 
-    public String gettNumber() {
-        return tNumber;
-    }
+
 
     public String getQuestionText() {
         return questionText;
@@ -53,7 +46,6 @@ public class Question {
         return
                 "questionId=" + questionId +
                 ", datePosted=" + datePosted +
-                ", tNumber='" + tNumber + '\'' +
                 ", questionText='" + questionText + '\'';
     }
 }
