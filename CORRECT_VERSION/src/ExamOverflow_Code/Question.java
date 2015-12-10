@@ -32,8 +32,6 @@ public class Question {
         return datePosted;
     }
 
-
-
     public String getQuestionText() {
         return questionText;
     }
@@ -45,8 +43,9 @@ public class Question {
     @Override
     public String toString() {
         return
-                "questionId=" + questionId +
-                ", datePosted=" + datePosted +
-                ", questionText='" + questionText + '\'';
+                "\nQuestion ID:" + questionId +
+                "\nDate Posted:" + datePosted +
+                "\nQuestion:" + questionText +
+                "\nPosted By: " + questionAsker.getTnumber();
     }
 }
