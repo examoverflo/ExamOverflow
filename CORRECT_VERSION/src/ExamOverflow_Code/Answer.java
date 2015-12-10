@@ -37,6 +37,10 @@ public class Answer {
         return question;
     }
 
+    public Student getAnswerPoster(){
+        return answerPoster;
+    }
+
    @Override
     public String toString() {
         return
