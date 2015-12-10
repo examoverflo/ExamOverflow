@@ -33,6 +33,10 @@ public class Answer {
         return dateAnswered;
     }
 
+    public String getQuestionText(){
+        return question.getQuestionText();
+    }
+
    @Override
     public String toString() {
         return

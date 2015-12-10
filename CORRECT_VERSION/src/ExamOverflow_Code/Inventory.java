@@ -44,11 +44,11 @@ public class Inventory {
         answers.add(answer);
     }
 
-    public List<Answer> search(String questionID) {
-
+    public List<Answer> searchForAnswers(String questionText) {
+        //for each answer in answers return where question is matching
         List<Answer> matchingAnswers = new LinkedList<Answer>();
         for (Answer answer : answers) {
-            if (answer.getQuestionID() == questionID)
+            if (answer.getQuestionText().equals(questionText))
                 matchingAnswers.add(answer);
         }
         return matchingAnswers;
