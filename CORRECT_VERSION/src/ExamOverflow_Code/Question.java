@@ -13,21 +13,15 @@ import java.util.List;
  * @author Gerard
  */
 public class Question {
-    private int questionId;
     private Date datePosted = new Date();
     private String questionText;
     private Student questionAsker;
     private static List<Answer> allAnswers;
 
-    public Question(String questionText, Date datePosted, int questionId,String tNumber,String userPassword) {
+    public Question(String questionText, Date datePosted, String tNumber, String userPassword) {
         this.questionText = questionText;
         this.datePosted = datePosted;
-        this.questionId = questionId;
-        this.questionAsker = new Student(tNumber,userPassword);
-    }
-
-    public int getQuestionId() {
-        return questionId;
+        this.questionAsker = new Student(tNumber, userPassword);
     }
 
     public Date getDatePosted() {
@@ -45,10 +39,9 @@ public class Question {
     @Override
     public String toString() {
         return
-                "\nQuestion ID:" + questionId +
                 "\nDate Posted:" + datePosted +
                 "\nQuestion:" + questionText +
-                "\nPosted By: " + questionAsker.getTnumber();
+                        "\nPosted By: " + questionAsker.toString();
     }
 
     public void addAnswer(Answer ans){
