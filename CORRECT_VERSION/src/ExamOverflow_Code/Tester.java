@@ -31,10 +31,28 @@ public class Tester {
 
     private static void initiliseInventory(Inventory inventory){
 
-        inventory.addQuestion("What is OOP",new Date(),1,"T01901909","myPass");
-        inventory.addQuestion("What is OOP",new Date(),2,"T01901909","myPass");
-        inventory.addQuestion("What is OOP",new Date(),3,"T01901909","myPass");
-        inventory.addQuestion("What is OOP",new Date(),4,"T01901909","myPass");
+        Student s1 = new Student("t001", "password1");
+        inventory.addStudent(s1);
+        Student s2 = new Student("t002", "password2");
+        inventory.addStudent(s2);
+        Student s3 = new Student("t003", "password3");
+        inventory.addStudent(s3);
+
+        Question q1 = new Question("What is OOP", new Date(), s1.getTNumber(), s1.getUserPassword());
+        inventory.addQuestion(q1);
+        Question q2 = new Question("What is polymorphism", new Date(), s2.getTNumber(), s2.getUserPassword());
+        inventory.addQuestion(q2);
+        Question q3 = new Question("What is a checked exception", new Date(), s3.getTNumber(), s3.getUserPassword());
+        inventory.addQuestion(q3);
+
+        Answer a1 = new Answer("I have no idea", new Date(),
+                q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
+                s3.getTNumber(), s3.getUserPassword());
+        Answer a2 = new Answer("Me neither", new Date(),
+                q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
+                s2.getTNumber(), s2.getUserPassword());
+
+        //inventory.
         //inventory.addAnswer("T12345678","OOP is object oriantated programming.",1,new Date(),1);
         //inventory.addAnswer("T12345678","The time is on the clock",1,new Date(),2);
 

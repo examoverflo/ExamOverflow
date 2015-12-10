@@ -13,8 +13,8 @@ import java.util.List;
  * @author Gerard
  */
 public class Question {
-    private Date datePosted = new Date();
     private String questionText;
+    private Date datePosted = new Date();
     private Student questionAsker;
     private static List<Answer> allAnswers;
 
