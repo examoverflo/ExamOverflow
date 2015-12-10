@@ -15,12 +15,13 @@ public class Question {
     private int questionId;
     private Date datePosted = new Date();
     private String questionText;
+    private Student questionAsker;
 
-
-    public Question(String questionText, Date datePosted, int questionId) {
+    public Question(String questionText, Date datePosted, int questionId,String tNumber,String userPassword) {
         this.questionText = questionText;
         this.datePosted = datePosted;
         this.questionId = questionId;
+        this.questionAsker = new Student(tNumber,userPassword);
     }
 
     public int getQuestionId() {
