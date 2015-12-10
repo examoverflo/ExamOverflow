@@ -9,29 +9,42 @@ import java.util.List;
  */
 public class Inventory {
 
+    private List<Student> students;
     private List<Question> questions;
     private List<Answer> answers;
 
 
     public Inventory(){
+        students = new LinkedList<>();
         questions = new LinkedList<Question>();
         answers = new LinkedList<Answer>();
     }
 
-    public void addQuestion(String questionText, Date datePosted, int questionId,String tNumber,String userPassword){
+    public void addStudent(String tNumber, String userPassword){
 
-        Question question = new Question(questionText,datePosted,questionId,tNumber,userPassword);
+        Student student = new Student(tNumber, userPassword);
+
+        students.add(student);
+    }
+
+    public void addQuestion(String questionText, Date datePosted, String tNumber,String userPassword){
+
+        Question question = new Question(questionText, datePosted, tNumber, userPassword);
 
         questions.add(question);
     }
 
-    public void addAnswer(String answerText, int questionId, Date datePosted, int questionID,String tNumber,String userPassword){
+    public void addAnswer(String answerText,Date dateAnswered,
+                          String questionText, Date datePosted, String tNumberQuestioner, String passwordQuestioner,
+                          String tNumberAnswerer, String passwordAnswerer){
 
-        Answer answer = new Answer(answerText,datePosted,questionId,tNumber,userPassword);
+        Answer answer = new Answer(answerText, dateAnswered,
+                questionText, datePosted, tNumberQuestioner, passwordQuestioner,
+                tNumberAnswerer, passwordAnswerer);
         answers.add(answer);
     }
 
-    public List<Answer> search(int questionID) {
+    public List<Answer> search(String questionID) {
 
         List<Answer> matchingAnswers = new LinkedList<Answer>();
         for (Answer answer : answers) {
