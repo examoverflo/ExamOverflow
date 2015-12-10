@@ -1,10 +1,6 @@
 package CodeVersion2;
 
-import CodeVersion2.Answer;
-import CodeVersion2.Inventory;
-
 import java.util.Date;
-import java.util.List;
 
 /**
  * Created by Damien on 04/12/2015.
@@ -23,7 +19,7 @@ public class Tester {
                 4, new Date(), Module.DATABASE_DESIGN, Topic.SQL);
 
 
-        searchForAnswers(inventory, 4);
+        Inventory.searchForAnswers(inventory, 4);
 
         System.out.println("John logs out of the system.......\n");
 
@@ -31,26 +27,11 @@ public class Tester {
 
         System.out.println("The nest day John logs back into the system to check for answers......\n");
 
-        searchForAnswers(inventory,4);
+        Inventory.searchForAnswers(inventory, 4);
 
         System.out.println();
-    }
 
-    private static void searchForAnswers(Inventory inventory,int questionId) {
-        List<Answer> questionAnswer = inventory.search(questionId);
 
-        System.out.println("Searching for answer to...John's question....\n");
-
-        if(!questionAnswer.isEmpty()) {
-            System.out.println("................\n"
-                             + "Here are all the answers:");
-            for (Answer answer : questionAnswer) {
-                System.out.println(answer.toString());
-            }
-        }
-        else {
-            System.out.println("Unfortunately, no answers have been given for this question");
-        }
     }
 
     private static void initiliseInventory(Inventory inventory){
