@@ -33,19 +33,11 @@ public class Answer {
         return datePosted;
     }
 
-    public void setDatePosted(Date datePosted) {
-        this.datePosted = datePosted;
-    }
-
     public int getQuestionID() {
         return questionID;
     }
 
-    public void setQuestionID(int questionID) {
-        this.questionID = questionID;
-    }
-
-    @Override
+   @Override
     public String toString() {
         return
                 "\nAnswer: " + answerText +
