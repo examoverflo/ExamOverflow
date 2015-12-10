@@ -11,16 +11,16 @@ package ExamOverflow_Code;
  */
 public class Student {
 
-    private String tNnumber;
+    private String tNumber;
     private String userPassword;
 
     public Student(String tNumber, String userPassword) {
-        this.tNnumber = tNumber;
+        this.tNumber = tNumber;
         this.userPassword = userPassword;
     }
 
-    public String getTnumber() {
-        return tNnumber;
+    public String getTNumber() {
+        return tNumber;
     }
 
 
@@ -33,7 +33,7 @@ public class Student {
     }
 
     public String toString(){
-        return "Student T-number: " + getTnumber() +
+        return "Student T-number: " + getTNumber() +
                 "Student Password: " + getUserPassword();
     }
 }
