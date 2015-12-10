@@ -44,11 +44,12 @@
       <file leaf-file-name="Question.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6344086">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.17741935">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding>
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -613,7 +614,7 @@
       <workItem from="1449511168209" duration="5471000" />
       <workItem from="1449745297769" duration="2092000" />
       <workItem from="1449747446008" duration="529000" />
-      <workItem from="1449756742414" duration="1396000" />
+      <workItem from="1449756742414" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="Created Remove User fully dressed use case">
       <created>1448293950498</created>
@@ -867,11 +868,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449758071992</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Updated Question toString method to display the tNumber of the Student who Posted the Question">
+      <created>1449758193822</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1449758193822</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30699000" />
+    <option name="totallyTimeSpent" value="30791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -941,7 +948,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created subclass ExamQuestion which extends abstract class Question" />
     <MESSAGE value="Copied Inventory and Tester class to new package in order to test the super class Question and subclasses ExamQuestion and GeneralQuestion" />
     <MESSAGE value="Updated Test for general questions and exam questions" />
     <MESSAGE value="Updated Answer Class in CodeVersion2. The setter methods for answerId, tNumber, questionId and datePosted were removed as they are immutable variables." />
@@ -966,7 +972,8 @@
     <MESSAGE value="Removed setter methods for datePosted, questionID, tNumber as these variables are immutable" />
     <MESSAGE value="Removed tNumber from the Question Class" />
     <MESSAGE value="Introduced Student variable to Question class. Each time a question is asked a new Student object is created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduced Student variable to Question class. Each time a question is asked a new Student object is created." />
+    <MESSAGE value="Updated Question toString method to display the tNumber of the Student who Posted the Question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Question toString method to display the tNumber of the Student who Posted the Question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1259,11 +1266,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6344086">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.17741935">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
           </folding>
         </state>
       </provider>

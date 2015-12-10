@@ -6,6 +6,7 @@
 package ExamOverflow_Code;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  *
@@ -16,6 +17,7 @@ public class Question {
     private Date datePosted = new Date();
     private String questionText;
     private Student questionAsker;
+    private List<Answer> allAnswers;
 
     public Question(String questionText, Date datePosted, int questionId,String tNumber,String userPassword) {
         this.questionText = questionText;
