@@ -39,8 +39,9 @@ public class Inventory {
         answers.add(answer);
     }
 
-    public List<Answer> searchForAnswers(String questionText) {
-        //for each answer in answers return where question is matching
+    //search for answers to certain question
+    public List<Answer> searchForAnswersByQuestion(String questionText) {
+
         List<Answer> matchingAnswers = new LinkedList<Answer>();
         for (Answer answer : answers) {
             if (answer.getQuestion().getQuestionText().equals(questionText))
@@ -49,6 +50,15 @@ public class Inventory {
         return matchingAnswers;
     }
 
+    //search for questions posted by certain T-Number
+    public List<Question> searchWhoPostedQuestion(String tNumber) {
 
+        List<Question> matchingQuestionsByTNumber = new LinkedList<>();
+        for (Question question : questions) {
+            if (question.getStudent().getTNumber().equals(tNumber))
+                matchingQuestionsByTNumber.add(question);
+        }
+        return matchingQuestionsByTNumber;
+    }
 
 }

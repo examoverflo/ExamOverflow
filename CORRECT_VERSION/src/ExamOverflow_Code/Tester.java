@@ -13,9 +13,12 @@ public class Tester {
         initiliseInventory(inventory);
 
         System.out.println(new Date());
-        String search = "What is OOP";
+        String search;
 
-        List<Answer> questionAnswer = inventory.searchForAnswers(search);
+        //test get answers to certain question
+        search = "What is OOP";
+
+        List<Answer> questionAnswer = inventory.searchForAnswersByQuestion(search);
         System.out.println("Searching for answer to " + search);
 
         if(!questionAnswer.isEmpty()) {
@@ -27,6 +30,23 @@ public class Tester {
         }
         else {
             System.out.println("Unfortunately, no answers have been given for this question");
+        }
+
+        //test get questions for certain t-number
+        search = "t001";
+
+        List<Question> questions = inventory.searchWhoPostedQuestion(search);
+        System.out.println("Searching T-Number that asked " + search);
+
+        if(!questions.isEmpty()) {
+            System.out.println("................\n"
+                    + "Here are all the questions:");
+            for (Question question : questions) {
+                System.out.println(question.getQuestionText());
+            }
+        }
+        else {
+            System.out.println("Unfortunately, no questions have been asked by this student");
         }
     }
 
