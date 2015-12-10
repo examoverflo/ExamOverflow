@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4265233">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.8010753">
+              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
               <folding>
                 <element signature="e#651#652#0" expanded="true" />
                 <element signature="e#695#696#0" expanded="true" />
@@ -600,7 +599,7 @@
       <workItem from="1449511168209" duration="5471000" />
       <workItem from="1449745297769" duration="2092000" />
       <workItem from="1449747446008" duration="529000" />
-      <workItem from="1449756742414" duration="784000" />
+      <workItem from="1449756742414" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="Created Remove User fully dressed use case">
       <created>1448293950498</created>
@@ -824,11 +823,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449757376230</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Updated Answer class so that a new Student Object was created each time a new Answer was created">
+      <created>1449757583022</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1449757583022</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30087000" />
+    <option name="totallyTimeSpent" value="30205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -898,7 +903,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Textual Analysis for fully dressed Seek Answer to Question use case" />
     <MESSAGE value="Created new folder and package for the first version of the Answer, Student, Question and Tester classes" />
     <MESSAGE value="Created Abstract Question Class" />
     <MESSAGE value="Pushed down DatePosted stuff to GeneralQuestion" />
@@ -923,7 +927,8 @@
     <MESSAGE value="Removed setter methods for questionId and datePosted as these variables should be immutable" />
     <MESSAGE value="Removed userName variable from Student class as it was not needed" />
     <MESSAGE value="Removed userName variable from Student class as it was not needed. Also removed setter method for tNumber as it is an immutable variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed userName variable from Student class as it was not needed. Also removed setter method for tNumber as it is an immutable variable" />
+    <MESSAGE value="Updated Answer class so that a new Student Object was created each time a new Answer was created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Answer class so that a new Student Object was created each time a new Answer was created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1210,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4265233">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.8010753">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
           <folding>
             <element signature="e#651#652#0" expanded="true" />
             <element signature="e#695#696#0" expanded="true" />

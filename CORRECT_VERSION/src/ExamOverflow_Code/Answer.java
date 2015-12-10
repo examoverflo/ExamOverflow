@@ -40,6 +40,7 @@ public class Answer {
         return
                 "\nAnswer: " + answerText +
                 "\nDate Posted: " + datePosted +
-                "\nAnswers: qiestion" + questionID;
+                "\nAnswers: qiestion" + questionID +
+                "\nPosted By: " + answerPoster.getTnumber();
     }
 }
