@@ -36,8 +36,8 @@ public class Question {
         this.questionText = questionText;
     }
 
-    public String getTnumber(){
-        return questionAsker.getTNumber();
+    public Student getStudent(){
+        return questionAsker;
     }
 
     @Override

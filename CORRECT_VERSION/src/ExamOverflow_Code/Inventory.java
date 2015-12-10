@@ -20,11 +20,15 @@ public class Inventory {
         answers = new LinkedList<Answer>();
     }
 
-    public void addStudent(String tNumber, String userPassword){
+    public void addStudent(Student s){
 
-        Student student = new Student(tNumber, userPassword);
-
+        Student student = new Student(s.getTNumber(), s.getUserPassword());
         students.add(student);
+    }
+
+    public void addQ(Question q){
+        Question question = new Question(q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword());
+        questions.add(question);
     }
 
     public void addQuestion(String questionText, Date datePosted, String tNumber,String userPassword){
