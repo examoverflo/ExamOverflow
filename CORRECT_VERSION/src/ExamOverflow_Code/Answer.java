@@ -33,8 +33,8 @@ public class Answer {
         return dateAnswered;
     }
 
-    public String getQuestionText(){
-        return question.getQuestionText();
+    public Question getQuestion(){
+        return question;
     }
 
    @Override
