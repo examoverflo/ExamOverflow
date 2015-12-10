@@ -12,29 +12,29 @@ package ExamOverflow_Code;
 public class Student {
 
 
-    private String Tnumber;
-    private String UserPassword;
+    private String tNnumber;
+    private String userPassword;
 
     public Student(){}
 
-    public Student(String Tnumber, String UserPassword) {
-        this.Tnumber = Tnumber;
-        this.UserPassword = UserPassword;
+    public Student(String tNumber, String userPassword) {
+        this.tNnumber = tNumber;
+        this.userPassword = userPassword;
 
 
     }
 
     public String getTnumber() {
-        return Tnumber;
+        return tNnumber;
     }
 
 
     public String getUserPassword() {
-        return UserPassword;
+        return userPassword;
     }
 
-    public void setUserPassword(String UserPassword) {
-        this.UserPassword = UserPassword;
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
 
 

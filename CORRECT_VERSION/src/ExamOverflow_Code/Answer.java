@@ -12,13 +12,12 @@ public class Answer {
     private int questionID;
     private Student answerPoster;
 
-    public Answer(String answerText,Date datePosted, int questionID) {
+    public Answer(String answerText,Date datePosted, int questionID,String tNumber,String userPassword) {
         this.answerText = answerText;
         this.datePosted = datePosted;
         this.questionID = questionID;
+        this.answerPoster = new Student(tNumber,userPassword);
     }
-
-
 
     public String getAnswerText() {
         return answerText;
