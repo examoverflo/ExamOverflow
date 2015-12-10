@@ -61,4 +61,15 @@ public class Inventory {
         return matchingQuestionsByTNumber;
     }
 
+    //search for questions posted by certain T-Number
+    public List<Answer> searchForAnswersByTNumber(String tNumber) {
+
+        List<Answer> matchingAnswers = new LinkedList<Answer>();
+        for (Answer answer : answers) {
+            if (answer.getAnswerPoster().getTNumber().equals(tNumber))
+                matchingAnswers.add(answer);
+        }
+        return matchingAnswers;
+    }
+
 }

@@ -69,11 +69,12 @@
       <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51804125">
-              <caret line="53" column="49" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.3427835">
+              <caret line="63" column="53" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1369#1377#0" expanded="true" />
+                <element signature="e#2195#2203#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+              <caret line="88" column="60" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -134,8 +135,8 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
       </list>
     </option>
   </component>
@@ -632,13 +633,7 @@
       <workItem from="1449745297769" duration="2092000" />
       <workItem from="1449747446008" duration="529000" />
       <workItem from="1449756742414" duration="2297000" />
-      <workItem from="1449775532091" duration="8122000" />
-    </task>
-    <task id="LOCAL-00012" summary="Created Abstract Question Class">
-      <created>1449497897369</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1449497897369</updated>
+      <workItem from="1449775532091" duration="8643000" />
     </task>
     <task id="LOCAL-00013" summary="Pushed down DatePosted stuff to GeneralQuestion">
       <created>1449498334610</created>
@@ -928,11 +923,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449786130866</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Created and tested searchWhoPostedQuestion in Inventory class via Tester class">
+      <created>1449786927457</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1449786927457</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39722000" />
+    <option name="totallyTimeSpent" value="40243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1002,7 +1003,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed setter methods for questionId and datePosted as these variables should be immutable" />
     <MESSAGE value="Removed userName variable from Student class as it was not needed" />
     <MESSAGE value="Removed userName variable from Student class as it was not needed. Also removed setter method for tNumber as it is an immutable variable" />
     <MESSAGE value="Updated Answer class so that a new Student Object was created each time a new Answer was created" />
@@ -1027,7 +1027,8 @@
     <MESSAGE value="Streamlined Inventory add methods to take in objects and call their unique getters because the repeated getters no longer exist" />
     <MESSAGE value="Updated tester class for doing some testing" />
     <MESSAGE value="Tested searchForAnswers method in Inventory class via Tester class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested searchForAnswers method in Inventory class via Tester class" />
+    <MESSAGE value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1078,6 +1079,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1369#1377#0" expanded="true" />
+            <element signature="e#2195#2203#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1111,6 +1113,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1369#1377#0" expanded="true" />
+            <element signature="e#2195#2203#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1157,6 +1160,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1369#1377#0" expanded="true" />
+            <element signature="e#2195#2203#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1359,18 +1363,19 @@
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <caret line="88" column="60" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51804125">
-          <caret line="53" column="49" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.3427835">
+          <caret line="63" column="53" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1369#1377#0" expanded="true" />
+            <element signature="e#2195#2203#0" expanded="true" />
           </folding>
         </state>
       </provider>

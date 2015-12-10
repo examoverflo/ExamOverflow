@@ -32,6 +32,7 @@ public class Tester {
             System.out.println("Unfortunately, no answers have been given for this question");
         }
 
+        System.out.println("\n\n\n\n");
         //test get questions for certain t-number
         search = "t001";
 
@@ -47,6 +48,24 @@ public class Tester {
         }
         else {
             System.out.println("Unfortunately, no questions have been asked by this student");
+        }
+
+        System.out.println("\n\n\n\n");
+        //test search for answers for certain t-number
+        search = "t001";
+
+        List<Answer> answers = inventory.searchForAnswersByTNumber(search);
+        System.out.println("Searching for answers posted by " + search);
+
+        if(!answers.isEmpty()) {
+            System.out.println("................\n"
+                    + "Here are all the answers:");
+            for (Answer answer : answers) {
+                System.out.println(answer.getAnswerText());
+            }
+        }
+        else {
+            System.out.println("Unfortunately, no answers have been provided by this student");
         }
     }
 
@@ -79,10 +98,6 @@ public class Tester {
                 q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
                 s2.getTNumber(), s2.getUserPassword());
         inventory.addAnswer(a3, q1);
-
-        //inventory.
-        //inventory.addAnswer("T12345678","OOP is object oriantated programming.",1,new Date(),1);
-        //inventory.addAnswer("T12345678","The time is on the clock",1,new Date(),2);
 
     }
 }
