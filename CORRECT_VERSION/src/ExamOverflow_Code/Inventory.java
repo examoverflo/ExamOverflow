@@ -31,11 +31,11 @@ public class Inventory {
         questions.add(question);
     }
 
-    public void addAnswer(String answerText,Date dateAnswered, Question q, Student s){
+    public void addAnswer(Answer a, Question q){
 
-        Answer answer = new Answer(answerText, dateAnswered,
+        Answer answer = new Answer(a.getAnswerText(), a.getdateAnswered(),
                 q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword(),
-                s.getTNumber(), s.getUserPassword());
+                a.getAnswerPoster().getTNumber(), a.getAnswerPoster().getUserPassword());
         answers.add(answer);
     }
 

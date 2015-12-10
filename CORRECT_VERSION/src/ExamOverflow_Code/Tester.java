@@ -13,15 +13,16 @@ public class Tester {
         initiliseInventory(inventory);
 
         System.out.println(new Date());
+        String search = "What is OOP";
 
-        List<Answer> questionAnswer = inventory.search(1);
-        System.out.println("Searching for answer to ");
+        List<Answer> questionAnswer = inventory.searchForAnswers(search);
+        System.out.println("Searching for answer to " + search);
 
         if(!questionAnswer.isEmpty()) {
             System.out.println("................\n"
                              + "Here are all the answers:");
             for (Answer answer : questionAnswer) {
-                System.out.println(answer.toString());
+                System.out.println(answer.getAnswerText());
             }
         }
         else {
@@ -45,12 +46,19 @@ public class Tester {
         Question q3 = new Question("What is a checked exception", new Date(), s3.getTNumber(), s3.getUserPassword());
         inventory.addQuestion(q3);
 
+        //all answering the first question
         Answer a1 = new Answer("I have no idea", new Date(),
                 q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
                 s3.getTNumber(), s3.getUserPassword());
+        inventory.addAnswer(a1, q1);
         Answer a2 = new Answer("Me neither", new Date(),
                 q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
                 s2.getTNumber(), s2.getUserPassword());
+        inventory.addAnswer(a2, q1);
+        Answer a3 = new Answer("Not a clue", new Date(),
+                q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
+                s2.getTNumber(), s2.getUserPassword());
+        inventory.addAnswer(a3, q1);
 
         //inventory.
         //inventory.addAnswer("T12345678","OOP is object oriantated programming.",1,new Date(),1);
