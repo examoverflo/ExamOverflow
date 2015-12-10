@@ -32,24 +32,12 @@ public class Question {
         return questionId;
     }
 
-    public void setQuestionId(int questionId) {
-        this.questionId = questionId;
-    }
-
     public Date getDatePosted() {
         return datePosted;
     }
 
-    public void setDatePosted(Date datePosted) {
-        this.datePosted = datePosted;
-    }
-
     public String gettNumber() {
         return tNumber;
-    }
-
-    public void settNumber(String tNumber) {
-        this.tNumber = tNumber;
     }
 
     public String getQuestionText() {
