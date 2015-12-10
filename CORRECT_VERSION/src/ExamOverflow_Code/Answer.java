@@ -13,7 +13,6 @@ public class Answer {
     private Student answerPoster;
 
     public Answer(String answerText,Date datePosted, int questionID) {
-
         this.answerText = answerText;
         this.datePosted = datePosted;
         this.questionID = questionID;

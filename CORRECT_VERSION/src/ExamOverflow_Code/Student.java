@@ -13,26 +13,21 @@ public class Student {
 
 
     private String Tnumber;
-    private String Username;
     private String UserPassword;
 
     public Student(){}
 
-    public Student(String Tnumber, String Username, String UserPassword) {
+    public Student(String Tnumber, String UserPassword) {
         this.Tnumber = Tnumber;
         this.UserPassword = UserPassword;
-        this.Username = Username;
+
 
     }
-
 
     public String getTnumber() {
         return Tnumber;
     }
 
-    public String getUsername() {
-        return Username;
-    }
 
     public String getUserPassword() {
         return UserPassword;
@@ -41,10 +36,6 @@ public class Student {
 
     public void setTnumber(String Tnumber) {
         this.Tnumber = Tnumber;
-    }
-
-    public void setUsername(String Username) {
-        this.Username = Username;
     }
 
     public void setUserPassword(String UserPassword) {
