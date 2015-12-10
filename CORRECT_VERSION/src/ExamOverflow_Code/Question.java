@@ -50,4 +50,8 @@ public class Question {
                 "\nQuestion:" + questionText +
                 "\nPosted By: " + questionAsker.getTnumber();
     }
+
+    public void addAnswer(Answer ans){
+        allAnswers.add(ans);
+    }
 }
