@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="Changed method getQuestionText in Answer class to Get Question which returns a Question object. This means the Question methods can be reused instead of creating repeated methods in the Answer class">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6990132">
+            <state vertical-scroll-proportion="0.0">
               <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
                 <element signature="e#1017#1018#0" expanded="true" />
@@ -66,14 +66,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.67105263">
+              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1730#1738#0" expanded="true" />
+                <element signature="e#1372#1380#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,9 +133,9 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Override.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
       </list>
     </option>
   </component>
@@ -632,13 +632,7 @@
       <workItem from="1449745297769" duration="2092000" />
       <workItem from="1449747446008" duration="529000" />
       <workItem from="1449756742414" duration="2297000" />
-      <workItem from="1449775532091" duration="4763000" />
-    </task>
-    <task id="LOCAL-00008" summary="Created Student Answers Question Use Case">
-      <created>1449253310943</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1449253310943</updated>
+      <workItem from="1449775532091" duration="5271000" />
     </task>
     <task id="LOCAL-00009" summary="Created Register Student Casual Use Case">
       <created>1449253685999</created>
@@ -928,11 +922,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449783460404</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Created method getAnswerPoster to return the Student object who posted an answer">
+      <created>1449783549694</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1449783549694</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36363000" />
+    <option name="totallyTimeSpent" value="36871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1002,7 +1002,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated the Tester Class to initialise both GeneralQuestion and ExamQuestion" />
     <MESSAGE value="Improved Tester Class by adding a new Question and then searching to show there are no answers for the question" />
     <MESSAGE value="Extracted searchForAnswers() method which takes in the inventory that will be searched and the questionId." />
     <MESSAGE value="Updated Answer Class, removed tNumber and id as we realised it would be better to use reference to Student objects instead of just tNumbers" />
@@ -1027,7 +1026,8 @@
     <MESSAGE value="Created method in Question class which returns the tnumber of the student who asked the question" />
     <MESSAGE value="Changed method previously created in Question class getTNumber to getStudent.&#10;This method returns a Student object.&#10;This reduces the number of methods as all student getters can now be called from this method rather than creating further methods.&#10;Changed Inventory class to add Student and Question objects which again reuses code already in the Student and Question classes" />
     <MESSAGE value="Changed method getQuestionText in Answer class to Get Question which returns a Question object. This means the Question methods can be reused instead of creating repeated methods in the Answer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed method getQuestionText in Answer class to Get Question which returns a Question object. This means the Question methods can be reused instead of creating repeated methods in the Answer class" />
+    <MESSAGE value="Created method getAnswerPoster to return the Student object who posted an answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created method getAnswerPoster to return the Student object who posted an answer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1077,7 +1077,7 @@
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1730#1738#0" expanded="true" />
+            <element signature="e#1372#1380#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1110,7 +1110,7 @@
           <caret line="40" column="14" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1730#1738#0" expanded="true" />
+            <element signature="e#1372#1380#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1156,7 +1156,7 @@
           <caret line="40" column="14" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1730#1738#0" expanded="true" />
+            <element signature="e#1372#1380#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1323,19 +1323,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1351,26 +1356,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1730#1738#0" expanded="true" />
-          </folding>
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6990132">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.67105263">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
           <folding>
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1372#1380#0" expanded="true" />
           </folding>
         </state>
       </provider>

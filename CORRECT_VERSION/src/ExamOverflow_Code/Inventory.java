@@ -26,25 +26,16 @@ public class Inventory {
         students.add(student);
     }
 
-    public void addQ(Question q){
+    public void addQuestion(Question q){
         Question question = new Question(q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword());
         questions.add(question);
     }
 
-    public void addQuestion(String questionText, Date datePosted, String tNumber,String userPassword){
-
-        Question question = new Question(questionText, datePosted, tNumber, userPassword);
-
-        questions.add(question);
-    }
-
-    public void addAnswer(String answerText,Date dateAnswered,
-                          String questionText, Date datePosted, String tNumberQuestioner, String passwordQuestioner,
-                          String tNumberAnswerer, String passwordAnswerer){
+    public void addAnswer(String answerText,Date dateAnswered, Question q, Student s){
 
         Answer answer = new Answer(answerText, dateAnswered,
-                questionText, datePosted, tNumberQuestioner, passwordQuestioner,
-                tNumberAnswerer, passwordAnswerer);
+                q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword(),
+                s.getTNumber(), s.getUserPassword());
         answers.add(answer);
     }
 
@@ -52,7 +43,7 @@ public class Inventory {
         //for each answer in answers return where question is matching
         List<Answer> matchingAnswers = new LinkedList<Answer>();
         for (Answer answer : answers) {
-            if (answer.getQuestionText().equals(questionText))
+            if (answer.getQuestion().getQuestionText().equals(questionText))
                 matchingAnswers.add(answer);
         }
         return matchingAnswers;
