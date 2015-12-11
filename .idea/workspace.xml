@@ -98,11 +98,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plan of Possible Future Changes.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Plan of Possible Future Changes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/ChangesToProject/Plan of Possible Future Changes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Seek Answer to Question.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.73077">
+              <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Seek Answer to Exam Question.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Exam Question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.0154638">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -168,6 +188,7 @@
         <option value="$PROJECT_DIR$/.idea/Use Cases/Seek Answer To General Question.html" />
         <option value="$PROJECT_DIR$/.idea/Use Cases/Seek Answer To Exam Question.html" />
         <option value="$PROJECT_DIR$/.idea/ChangesToProject/Plan of Possible Future Changes.html" />
+        <option value="$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Exam Question.html" />
       </list>
     </option>
   </component>
@@ -189,8 +210,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="328" />
+    <option name="y" value="279" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -251,6 +272,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamOverflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamOverflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Textual Analysis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,13 +683,7 @@
       <workItem from="1449747446008" duration="529000" />
       <workItem from="1449756742414" duration="2297000" />
       <workItem from="1449775532091" duration="8643000" />
-      <workItem from="1449836283624" duration="305000" />
-    </task>
-    <task id="LOCAL-00015" summary="Created subclass ExamQuestion which extends abstract class Question">
-      <created>1449500313167</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1449500313167</updated>
+      <workItem from="1449836283624" duration="462000" />
     </task>
     <task id="LOCAL-00016" summary="Created subclass ExamQuestion which extends abstract class Question">
       <created>1449500429028</created>
@@ -940,14 +973,20 @@
       <option name="project" value="LOCAL" />
       <updated>1449836503330</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Created a plan for possible future changes we could possibly apply.">
+      <created>1449836617965</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1449836617965</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40548000" />
+    <option name="totallyTimeSpent" value="40705000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="328" y="279" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1014,7 +1053,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated Answer class so that a new Student Object was created each time a new Answer was created" />
     <MESSAGE value="Updated Answer class so tha when the Answer toString method is called the tNumber for the Student who posted the answer is also displayed" />
     <MESSAGE value="Removed setter methods for datePosted, questionID, tNumber as these variables are immutable" />
     <MESSAGE value="Removed tNumber from the Question Class" />
@@ -1039,7 +1077,8 @@
     <MESSAGE value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
     <MESSAGE value="Created new use case for General Question" />
     <MESSAGE value="Created new use case for an Exam Question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new use case for an Exam Question" />
+    <MESSAGE value="Created a plan for possible future changes we could possibly apply." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a plan for possible future changes we could possibly apply." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1384,13 +1423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.538462">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1464,6 +1496,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.73077">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Exam Question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0154638">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding />
         </state>
       </provider>
