@@ -19,6 +19,10 @@ public class Inventory {
         answers = new LinkedList<Answer>();
     }
 
+    public List<Student> getStudents(){
+        return students;
+    }
+
     public void addStudent(Student s){
 
         Student student = new Student(s.getTNumber(), s.getUserPassword());
@@ -37,7 +41,7 @@ public class Inventory {
         Answer answer = new Answer(a.getAnswerText(), a.getDateAnswered(),
                 q.getQuestionId(),
                 a.getAnswerPoster().getTNumber());
-        answers.add(answer);
+        q.setAnswer(answer);
     }
 
     //search for question by id
