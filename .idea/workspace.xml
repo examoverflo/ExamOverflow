@@ -656,12 +656,6 @@
       <workItem from="1449775532091" duration="8643000" />
       <workItem from="1449836217455" duration="1901000" />
     </task>
-    <task id="LOCAL-00018" summary="Copied Inventory and Tester class to new package in order to test the super class Question and subclasses ExamQuestion and GeneralQuestion">
-      <created>1449502005939</created>
-      <option name="number" value="00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1449502005939</updated>
-    </task>
     <task id="LOCAL-00019" summary="Updated Test for general questions and exam questions">
       <created>1449503327129</created>
       <option name="number" value="00019" />
@@ -950,11 +944,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449840020501</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods">
+      <created>1449840217068</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1449840217069</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42506000" />
+    <option name="totallyTimeSpent" value="42550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
