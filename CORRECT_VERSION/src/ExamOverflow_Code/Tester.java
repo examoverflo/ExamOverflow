@@ -86,7 +86,6 @@ public class Tester {
         Student s3 = new Student("t003", "password3");
         inventory.addStudent(s3);
 
-            //int questionId, String questionText, Date datePosted, String tNumber, String userPassword
         Question q1 = new Question(1, "What is OOP", new Date(), s1.getTNumber(), s1.getUserPassword());
         inventory.addQuestion(q1);
         Question q2 = new Question(2, "What is polymorphism", new Date(), s2.getTNumber(), s2.getUserPassword());
@@ -94,10 +93,6 @@ public class Tester {
         Question q3 = new Question(3, "What is a checked exception", new Date(), s3.getTNumber(), s3.getUserPassword());
         inventory.addQuestion(q3);
 
-            //all answering the first question
-        /*String answerText, Date dateAnswered,
-                  int questionId,
-                  String tNumberOfAnswerer, String passwordOfAnswerer*/
         Answer a1 = new Answer("I have no idea", new Date(),
                 1,
                 s1.getTNumber(), s1.getUserPassword());
@@ -111,15 +106,6 @@ public class Tester {
                 s1.getTNumber(), s1.getUserPassword());
         inventory.addAnswer(a3);
 
-           /* Question question = new Question(1, "questionText", new Date(), "tNumber", "userPassword");
-            Answer answer = new Answer("answerText", new Date(), 1, "tNumberOfAnswerer");
-            Answer answer1 = new Answer("answerText", new Date(), 1, "tNumberOfAnswerer");
-
-
-            inventory.addQuestion(question);
-            inventory.addAnswer(answer);
-            inventory.addAnswer(answer1);
-*/
         }
 
     }
