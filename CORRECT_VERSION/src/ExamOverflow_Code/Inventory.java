@@ -26,15 +26,17 @@ public class Inventory {
     }
 
     public void addQuestion(Question q){
-        Question question = new Question(q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword());
+        //Question question = new Question(q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword());
+        Question question = new Question(q.getQuestionId(), q.getQuestionText(), q.getDatePosted(),
+                                            q.getStudent().getTNumber(), q.getStudent().getUserPassword());
         questions.add(question);
     }
 
     public void addAnswer(Answer a, Question q){
 
         Answer answer = new Answer(a.getAnswerText(), a.getDateAnswered(),
-                q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword(),
-                a.getAnswerPoster().getTNumber(), a.getAnswerPoster().getUserPassword());
+                q.getQuestionId(),
+                a.getAnswerPoster().getTNumber());
         answers.add(answer);
     }
 

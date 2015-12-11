@@ -31,6 +31,15 @@ public class Answer {
         this.answerPoster = new Student(tNumberOfAnswerer);
     }
 
+    public Answer(String answerText, Date dateAnswered,
+                  int questionId,
+                  String tNumberOfAnswerer, String passwordOfAnswerer){
+        setAnswerText(answerText);
+        this.dateAnswered = dateAnswered;
+        this.questionId = questionId;
+        this.answerPoster = new Student(tNumberOfAnswerer, passwordOfAnswerer);
+    }
+
     public String getAnswerText() {
         return answerText;
     }
