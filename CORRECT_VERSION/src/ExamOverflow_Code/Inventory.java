@@ -92,5 +92,18 @@ public class Inventory {
         return matchingAnswers;
     }
 
+    public List<Question> getQuestionsByModule(Module module){
+
+        List<Question> matchingQuestions = new LinkedList<>();
+
+        for(Question question:questions){
+            if(question.getModule().equals(module))
+            {
+                matchingQuestions.add(question);
+            }
+        }
+        return matchingQuestions;
+    }
+
 
 }
