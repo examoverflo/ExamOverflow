@@ -10,8 +10,6 @@ public class Inventory {
 
     private List<Student> students;
     private List<Question> questions;
-    private List<Answer> answers;
-
 
     public Inventory(){
         students = new LinkedList<>();
@@ -21,20 +19,15 @@ public class Inventory {
 
 
     public void addStudent(Student s){
-
         students.add(s);
     }
 
     public void addQuestion(Question q){
-
         questions.add(q);
     }
 
     public void addAnswer(Answer a){
 
-        //Answer answer = new Answer(a.getAnswerText(), a.getDateAnswered(),
-          //      q.getQuestionId(),
-            //    a.getAnswerPoster().getTNumber());
         for(Question q: questions){
             if(q.getQuestionId() == a.getQuestionId()){
                 q.setAnswer(a);
@@ -47,13 +40,13 @@ public class Inventory {
     //search for question by id
     public Question searchForQuestionByQuestionId(int questionId) {
 
-        Question matchingQuestion;
+        Question matchingQuestion =null;
         for (Question q : questions) {
             if (q.getQuestionId() == questionId)
-                return matchingQuestion = q;
+                matchingQuestion = q;
         }
 
-        return null;
+        return matchingQuestion;
     }
 
     //search for answers to certain question
@@ -85,6 +78,11 @@ public class Inventory {
 
         List<Answer> matchingAnswers = new LinkedList<>();
 
+        if (searchQuestionForAnswersByTNumber(tNumber, matchingAnswers)) return matchingAnswers;
+        return matchingAnswers;
+    }
+
+    private boolean searchQuestionForAnswersByTNumber(String tNumber, List<Answer> matchingAnswers) {
         for (Question question : questions) {
             List<Answer> speficQuestionAnswers = new LinkedList<>();
             for(Answer ans:question.getAllAnswers()){
@@ -93,10 +91,10 @@ public class Inventory {
                 }
                 matchingAnswers.addAll(speficQuestionAnswers);
             }
-            return matchingAnswers;
+            return true;
 
         }
-        return matchingAnswers;
+        return false;
     }
 
 

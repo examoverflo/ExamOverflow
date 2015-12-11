@@ -86,10 +86,14 @@
       <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6953405">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.29928315">
+              <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -670,13 +674,7 @@
       <workItem from="1449756742414" duration="2297000" />
       <workItem from="1449775532091" duration="8643000" />
       <workItem from="1449836217455" duration="1901000" />
-      <workItem from="1449845027838" duration="8978000" />
-    </task>
-    <task id="LOCAL-00027" summary="Created Topic Enum">
-      <created>1449513353542</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1449513353542</updated>
+      <workItem from="1449845027838" duration="9331000" />
     </task>
     <task id="LOCAL-00028" summary="Updated GeneralQuestion to include Topic">
       <created>1449513699930</created>
@@ -966,11 +964,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449853894198</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Made changes to the way Students and Questions were add the their lists in the Inventory class">
+      <created>1449854063443</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1449854063443</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54044000" />
+    <option name="totallyTimeSpent" value="54397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1040,7 +1044,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Introduced Student variable to Question class. Each time a question is asked a new Student object is created." />
     <MESSAGE value="Updated Question toString method to display the tNumber of the Student who Posted the Question" />
     <MESSAGE value="Introduced a List variable into the Question class which will keep record of all answers provided by students." />
     <MESSAGE value="Created addAnswer(Answer ans) method which will add answers to the List created previously." />
@@ -1065,7 +1068,8 @@
     <MESSAGE value="Tested add answer to question" />
     <MESSAGE value="updated addAnswer in Inventory class so that the answer is added to the list of answers for the Question class" />
     <MESSAGE value="made some changes to the way Answers and Question are searched for" />
-    <option name="LAST_COMMIT_MESSAGE" value="made some changes to the way Answers and Question are searched for" />
+    <MESSAGE value="Made changes to the way Students and Questions were add the their lists in the Inventory class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made changes to the way Students and Questions were add the their lists in the Inventory class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1099,6 +1103,10 @@
           <caret line="62" column="53" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1156,6 +1164,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1213,6 +1225,10 @@
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1245,6 +1261,10 @@
           <caret line="40" column="14" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1290,6 +1310,10 @@
           <caret line="40" column="14" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1477,6 +1501,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1493,32 +1532,21 @@
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6953405">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.29928315">
+          <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
