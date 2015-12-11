@@ -16,7 +16,11 @@ public class Student {
 
     public Student(String tNumber, String userPassword) {
         this.tNumber = tNumber;
-        this.userPassword = userPassword;
+        setUserPassword(userPassword);
+    }
+
+    public Student(String tNumber) {
+        this.tNumber = tNumber;
     }
 
     public String getTNumber() {
