@@ -1,6 +1,5 @@
 package ExamOverflow_Code;
 
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -33,7 +32,7 @@ public class Inventory {
 
     public void addAnswer(Answer a, Question q){
 
-        Answer answer = new Answer(a.getAnswerText(), a.getdateAnswered(),
+        Answer answer = new Answer(a.getAnswerText(), a.getDateAnswered(),
                 q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword(),
                 a.getAnswerPoster().getTNumber(), a.getAnswerPoster().getUserPassword());
         answers.add(answer);
