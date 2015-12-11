@@ -16,7 +16,7 @@ public class Tester {
         String search;
 
         //test get answers to certain question
-        search = "What is OOP";
+        /*search = "What is OOP";
 
         List<Answer> questionAnswer = inventory.searchForAnswersByQuestion(search);
         System.out.println("Searching for answer to " + search);
@@ -30,7 +30,7 @@ public class Tester {
         }
         else {
             System.out.println("Unfortunately, no answers have been given for this question");
-        }
+        }*/
 
         System.out.println("\n\n\n\n");
         //test get questions for certain t-number

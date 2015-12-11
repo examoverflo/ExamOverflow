@@ -41,7 +41,7 @@ public class Inventory {
     }
 
     //search for answers to certain question
-    public List<Answer> searchForAnswersByQuestion(String questionText) {
+    /*public List<Answer> searchForAnswersByQuestion(String questionText) {
 
         List<Answer> matchingAnswers = new LinkedList<Answer>();
         for (Answer answer : answers) {
@@ -49,7 +49,7 @@ public class Inventory {
                 matchingAnswers.add(answer);
         }
         return matchingAnswers;
-    }
+    }*/
 
     //search for questions posted by certain T-Number
     public List<Question> searchWhoPostedQuestion(String tNumber) {
