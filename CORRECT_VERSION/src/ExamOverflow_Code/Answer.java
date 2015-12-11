@@ -9,7 +9,7 @@ public class Answer {
 
     private String answerText;
     private Date dateAnswered;
-    //private Question question;
+    private Question question;
     private int questionId;
     private Student answerPoster;
 
