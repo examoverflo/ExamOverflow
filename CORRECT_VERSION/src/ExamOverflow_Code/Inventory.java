@@ -78,23 +78,20 @@ public class Inventory {
 
         List<Answer> matchingAnswers = new LinkedList<>();
 
-        if (searchQuestionForAnswersByTNumber(tNumber, matchingAnswers)) return matchingAnswers;
-        return matchingAnswers;
-    }
+        for (Question question : questions) {//search each question
 
-    private boolean searchQuestionForAnswersByTNumber(String tNumber, List<Answer> matchingAnswers) {
-        for (Question question : questions) {
-            List<Answer> speficQuestionAnswers = new LinkedList<>();
+
+            //search each answer in the question
             for(Answer ans:question.getAllAnswers()){
                 if(ans.getAnswerPoster().getTNumber().equals(tNumber)){
-                    speficQuestionAnswers.add(ans);
+                    matchingAnswers.add(ans);
                 }
-                matchingAnswers.addAll(speficQuestionAnswers);
+
             }
-            return true;
+            return matchingAnswers;
 
         }
-        return false;
+        return matchingAnswers;
     }
 
 

@@ -100,11 +100,11 @@ public class Tester {
                   String tNumberOfAnswerer, String passwordOfAnswerer*/
         Answer a1 = new Answer("I have no idea", new Date(),
                 1,
-                s3.getTNumber(), s3.getUserPassword());
+                s1.getTNumber(), s1.getUserPassword());
         inventory.addAnswer(a1);
         Answer a2 = new Answer("Me neither", new Date(),
                 1,
-                s2.getTNumber(), s2.getUserPassword());
+                s1.getTNumber(), s1.getUserPassword());
         inventory.addAnswer(a2);
         Answer a3 = new Answer("Not a clue", new Date(),
                 1,

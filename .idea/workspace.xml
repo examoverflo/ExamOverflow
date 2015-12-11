@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -83,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29928315">
-              <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#383#384#0" expanded="true" />
@@ -99,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.11648746">
+              <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -155,8 +156,8 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
       </list>
     </option>
   </component>
@@ -674,13 +675,7 @@
       <workItem from="1449756742414" duration="2297000" />
       <workItem from="1449775532091" duration="8643000" />
       <workItem from="1449836217455" duration="1901000" />
-      <workItem from="1449845027838" duration="9331000" />
-    </task>
-    <task id="LOCAL-00028" summary="Updated GeneralQuestion to include Topic">
-      <created>1449513699930</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1449513699930</updated>
+      <workItem from="1449845027838" duration="9866000" />
     </task>
     <task id="LOCAL-00029" summary="Updated Inventory Class to include Module and Topic when creating the Question">
       <created>1449513953249</created>
@@ -970,11 +965,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449854063443</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Generated new method searchQuestionForAnswersByTNumber which checks through a question to see if any of the answers provided where given by a certain tnumber">
+      <created>1449854440449</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1449854440449</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54397000" />
+    <option name="totallyTimeSpent" value="54932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1044,7 +1045,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated Question toString method to display the tNumber of the Student who Posted the Question" />
     <MESSAGE value="Introduced a List variable into the Question class which will keep record of all answers provided by students." />
     <MESSAGE value="Created addAnswer(Answer ans) method which will add answers to the List created previously." />
     <MESSAGE value="Updated Inventory class so that the Question and Answer objects were passed the correct number of arguments" />
@@ -1069,7 +1069,8 @@
     <MESSAGE value="updated addAnswer in Inventory class so that the answer is added to the list of answers for the Question class" />
     <MESSAGE value="made some changes to the way Answers and Question are searched for" />
     <MESSAGE value="Made changes to the way Students and Questions were add the their lists in the Inventory class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made changes to the way Students and Questions were add the their lists in the Inventory class" />
+    <MESSAGE value="Generated new method searchQuestionForAnswersByTNumber which checks through a question to see if any of the answers provided where given by a certain tnumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generated new method searchQuestionForAnswersByTNumber which checks through a question to see if any of the answers provided where given by a certain tnumber" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1529,18 +1530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29928315">
-          <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
@@ -1548,6 +1541,14 @@
             <element signature="e#456#457#0" expanded="true" />
             <element signature="e#488#489#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11648746">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
