@@ -26,7 +26,7 @@ public class Inventory {
     }
 
     public void addQuestion(Question q){
-        //Question question = new Question(q.getQuestionText(), q.getDatePosted(), q.getStudent().getTNumber(), q.getStudent().getUserPassword());
+
         Question question = new Question(q.getQuestionId(), q.getQuestionText(), q.getDatePosted(),
                                             q.getStudent().getTNumber(), q.getStudent().getUserPassword());
         questions.add(question);

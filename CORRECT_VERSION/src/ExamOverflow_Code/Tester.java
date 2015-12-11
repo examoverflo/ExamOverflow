@@ -78,24 +78,28 @@ public class Tester {
         Student s3 = new Student("t003", "password3");
         inventory.addStudent(s3);
 
-        Question q1 = new Question("What is OOP", new Date(), s1.getTNumber(), s1.getUserPassword());
+        //int questionId, String questionText, Date datePosted, String tNumber, String userPassword
+        Question q1 = new Question(1, "What is OOP", new Date(), s1.getTNumber(), s1.getUserPassword());
         inventory.addQuestion(q1);
-        Question q2 = new Question("What is polymorphism", new Date(), s2.getTNumber(), s2.getUserPassword());
+        Question q2 = new Question(2, "What is polymorphism", new Date(), s2.getTNumber(), s2.getUserPassword());
         inventory.addQuestion(q2);
-        Question q3 = new Question("What is a checked exception", new Date(), s3.getTNumber(), s3.getUserPassword());
+        Question q3 = new Question(3, "What is a checked exception", new Date(), s3.getTNumber(), s3.getUserPassword());
         inventory.addQuestion(q3);
 
         //all answering the first question
+        /*String answerText, Date dateAnswered,
+                  int questionId,
+                  String tNumberOfAnswerer, String passwordOfAnswerer*/
         Answer a1 = new Answer("I have no idea", new Date(),
-                q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
+                1,
                 s3.getTNumber(), s3.getUserPassword());
         inventory.addAnswer(a1, q1);
         Answer a2 = new Answer("Me neither", new Date(),
-                q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
+                1,
                 s2.getTNumber(), s2.getUserPassword());
         inventory.addAnswer(a2, q1);
         Answer a3 = new Answer("Not a clue", new Date(),
-                q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
+                1,
                 s2.getTNumber(), s2.getUserPassword());
         inventory.addAnswer(a3, q1);
 
