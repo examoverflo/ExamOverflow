@@ -29,7 +29,7 @@ public class Answer {
         this.answerText = answerText;
     }
 
-    public Date getdateAnswered() {
+    public Date getDateAnswered() {
         return dateAnswered;
     }
 
@@ -45,7 +45,7 @@ public class Answer {
     public String toString() {
         return
                 "\nAnswer: " + getAnswerText() +
-                        "\nDate Answered: " + getdateAnswered() +
+                        "\nDate Answered: " + getDateAnswered() +
                         "\n" + question.toString() +
                         "\n" + answerPoster.toString();
     }

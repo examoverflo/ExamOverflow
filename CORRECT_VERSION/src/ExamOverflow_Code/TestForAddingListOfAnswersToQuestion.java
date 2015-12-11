@@ -24,11 +24,11 @@ public class TestForAddingListOfAnswersToQuestion {
         Answer a3 = new Answer("Not a clue", new Date(),
                 q1.getQuestionText(), q1.getDatePosted(), q1.getStudent().getTNumber(), q1.getStudent().getUserPassword(),
                 s2.getTNumber(), s2.getUserPassword());
-        System.out.println("printing a1.......");
-        System.out.println(a1.toString());
 
         System.out.println("adding a1 to q1.......");
         q1.setAnswer(a1);
+        System.out.println("adding a2 to q1.......");
+        q1.setAnswer(a2);
 
         System.out.println("printing q1.......");
         System.out.println(q1.toString());

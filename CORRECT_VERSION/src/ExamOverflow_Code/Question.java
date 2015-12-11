@@ -58,8 +58,6 @@ public class Question {
     }
 
     public void setAnswer(Answer ans){
-        System.out.println("got here");
-        System.out.println(ans.toString());
         this.allAnswers.add(ans);
     }
 
