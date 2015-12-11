@@ -656,18 +656,6 @@
       <workItem from="1449775532091" duration="8643000" />
       <workItem from="1449836217455" duration="1901000" />
     </task>
-    <task id="LOCAL-00019" summary="Updated Test for general questions and exam questions">
-      <created>1449503327129</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1449503327129</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Updated Answer Class in CodeVersion2. The setter methods for answerId, tNumber, questionId and datePosted were removed as they are immutable variables.">
-      <created>1449511463490</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1449511463490</updated>
-    </task>
     <task id="LOCAL-00021" summary="Updated Answer Class. Changed the toString() method to use the getter methods in the class.">
       <created>1449511699858</created>
       <option name="number" value="00021" />
@@ -950,11 +938,23 @@
       <option name="project" value="LOCAL" />
       <updated>1449840217069</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods">
+      <created>1449840262576</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1449840262580</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods">
+      <created>1449840343378</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1449840343378</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42550000" />
+    <option name="totallyTimeSpent" value="42702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
