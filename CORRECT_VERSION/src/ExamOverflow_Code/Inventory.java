@@ -81,20 +81,11 @@ public class Inventory {
         for (Question question : questions) {//search each question
 
             //search each answer in the question
-            filterQuestionAnswersByTNumber(tNumber, matchingAnswers, question);
+            question.filterQuestionAnswersByTNumber(tNumber, matchingAnswers);
             return matchingAnswers;
 
         }
         return matchingAnswers;
-    }
-
-    private void filterQuestionAnswersByTNumber(String tNumber, List<Answer> matchingAnswers, Question question) {
-        for(Answer ans:question.getAllAnswers()){
-            if(ans.getAnswerPoster().getTNumber().equals(tNumber)){
-                matchingAnswers.add(ans);
-            }
-
-        }
     }
 
 

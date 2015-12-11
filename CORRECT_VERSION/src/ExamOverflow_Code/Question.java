@@ -80,4 +80,13 @@ public class Question {
         }
         return print;
     }
+
+    void filterQuestionAnswersByTNumber(String tNumber, List<Answer> matchingAnswers) {
+        for(Answer ans: getAllAnswers()){
+            if(ans.getAnswerPoster().getTNumber().equals(tNumber)){
+                matchingAnswers.add(ans);
+            }
+
+        }
+    }
 }
