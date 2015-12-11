@@ -6,6 +6,7 @@
 package ExamOverflow_Code;
 
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -16,12 +17,13 @@ public class Question {
     private String questionText;
     private Date datePosted = new Date();
     private Student questionAsker;
-    private static List<Answer> allAnswers;
+    private List<Answer> allAnswers = null;
 
     public Question(String questionText, Date datePosted, String tNumber, String userPassword) {
-        this.questionText = questionText;
+        setQuestionText(questionText);
         this.datePosted = datePosted;
         this.questionAsker = new Student(tNumber, userPassword);
+        this.allAnswers = new LinkedList<>();
     }
 
     public Date getDatePosted() {
@@ -42,13 +44,34 @@ public class Question {
 
     @Override
     public String toString() {
-        return
-                "\nDate Posted:" + datePosted +
-                "\nQuestion:" + questionText +
-                        "\nPosted By: " + questionAsker.toString();
+        if (allAnswers != null){
+            return "\nDate Posted:" + getDatePosted() +
+                    "\nQuestion:" + getQuestionText() +
+                    "\nPosted By: " + getStudent().toString() +
+                    "\nAnswers: " + printAnswers();
+        }
+        else
+            return
+                "\nDate Posted:" + getDatePosted() +
+                        "\nQuestion:" + getQuestionText() +
+                        "\nPosted By: " + getStudent().toString();
     }
 
-    public void addAnswer(Answer ans){
-        allAnswers.add(ans);
+    public void setAnswer(Answer ans){
+        System.out.println("got here");
+        System.out.println(ans.toString());
+        this.allAnswers.add(ans);
+    }
+
+    public List<Answer> getAnswer(){
+        return allAnswers;
+    }
+
+    public String printAnswers(){
+        String print = "";
+        for(Answer a : allAnswers){
+            print += a.toString() + "\n";
+        }
+        return print;
     }
 }
