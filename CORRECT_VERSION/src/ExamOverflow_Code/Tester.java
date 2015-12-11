@@ -41,7 +41,7 @@ public class Tester {
 
         System.out.println("\n\n\n\n");
         //test get questions for certain t-number
-        search = "t001";
+        search = "t003";
 
         List<Question> questions = inventory.searchWhoPostedQuestion(search);
         System.out.println("Searching T-Number that asked " + search);
@@ -59,7 +59,7 @@ public class Tester {
         System.out.println("\n\n\n\n");
 
         //test search for answers for certain t-number
-        search = "t001";
+        search = "t002";
 
         List<Answer> answers = inventory.searchForAnswersByTNumber(search);
         System.out.println("Searching for answers posted by " + search);
@@ -104,7 +104,7 @@ public class Tester {
         inventory.addAnswer(a1);
         Answer a2 = new Answer("Me neither", new Date(),
                 1,
-                s1.getTNumber(), s1.getUserPassword());
+                s2.getTNumber(), s2.getUserPassword());
         inventory.addAnswer(a2);
         Answer a3 = new Answer("Not a clue", new Date(),
                 1,

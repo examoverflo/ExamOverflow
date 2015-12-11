@@ -66,11 +66,15 @@ public class Inventory {
     public List<Question> searchWhoPostedQuestion(String tNumber) {
 
         List<Question> matchingQuestionsByTNumber = new LinkedList<>();
+        getQuestionsPostedByTNumber(tNumber, matchingQuestionsByTNumber);
+        return matchingQuestionsByTNumber;
+    }
+
+    private void getQuestionsPostedByTNumber(String tNumber, List<Question> matchingQuestionsByTNumber) {
         for (Question question : questions) {
             if (question.getStudent().getTNumber().equals(tNumber))
                 matchingQuestionsByTNumber.add(question);
         }
-        return matchingQuestionsByTNumber;
     }
 
     //search for questions posted by certain T-Number
