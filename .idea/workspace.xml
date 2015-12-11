@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -29,27 +27,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3381925">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Question.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state vertical-scroll-proportion="1.883382">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding>
-                <element signature="e#0#1963#0" expanded="true" />
-                <element signature="e#1670#1671#0" expanded="true" />
-                <element signature="e#1710#1711#0" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1781#1782#0" expanded="true" />
+                <element signature="e#0#2202#0" expanded="true" />
+                <element signature="e#1909#1910#0" expanded="true" />
+                <element signature="e#1949#1950#0" expanded="true" />
+                <element signature="e#1987#1988#0" expanded="true" />
+                <element signature="e#2020#2021#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,15 +68,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#866#0" expanded="false" />
-                <element signature="e#499#500#0" expanded="false" />
-                <element signature="e#529#530#0" expanded="false" />
-                <element signature="e#569#570#0" expanded="false" />
-                <element signature="e#604#605#0" expanded="false" />
-                <element signature="e#660#661#0" expanded="false" />
-                <element signature="e#708#709#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,9 +140,9 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
       </list>
     </option>
   </component>
@@ -658,13 +648,7 @@
       <workItem from="1449747446008" duration="529000" />
       <workItem from="1449756742414" duration="2297000" />
       <workItem from="1449775532091" duration="8643000" />
-      <workItem from="1449836217455" duration="1901000" />
-    </task>
-    <task id="LOCAL-00015" summary="Created subclass ExamQuestion which extends abstract class Question">
-      <created>1449500313167</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1449500313167</updated>
+      <workItem from="1449836217455" duration="2498000" />
     </task>
     <task id="LOCAL-00016" summary="Created subclass ExamQuestion which extends abstract class Question">
       <created>1449500429028</created>
@@ -954,11 +938,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449837580668</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Created TestForAddingListOfAnswersToQuestion to test these methods">
+      <created>1449838211901</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1449838211905</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42144000" />
+    <option name="totallyTimeSpent" value="42741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1028,7 +1018,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed userName variable from Student class as it was not needed. Also removed setter method for tNumber as it is an immutable variable" />
     <MESSAGE value="Updated Answer class so that a new Student Object was created each time a new Answer was created" />
     <MESSAGE value="Updated Answer class so tha when the Answer toString method is called the tNumber for the Student who posted the answer is also displayed" />
     <MESSAGE value="Removed setter methods for datePosted, questionID, tNumber as these variables are immutable" />
@@ -1053,7 +1042,8 @@
     <MESSAGE value="Tested searchForAnswers method in Inventory class via Tester class" />
     <MESSAGE value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
     <MESSAGE value="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods" />
+    <MESSAGE value="Created TestForAddingListOfAnswersToQuestion to test these methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created TestForAddingListOfAnswersToQuestion to test these methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1077,11 +1067,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
-            <element signature="e#0#1963#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#0#2202#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2020#2021#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1090,15 +1080,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#866#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#660#661#0" expanded="false" />
-            <element signature="e#708#709#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,11 +1115,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1963#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#0#2202#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2020#2021#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1146,15 +1128,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#866#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#660#661#0" expanded="false" />
-            <element signature="e#708#709#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,19 +1381,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#866#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#660#661#0" expanded="false" />
-            <element signature="e#708#709#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1441,33 +1415,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state vertical-scroll-proportion="1.883382">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding>
-            <element signature="e#0#1963#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#0#2202#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2020#2021#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3381925">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>

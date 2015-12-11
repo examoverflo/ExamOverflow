@@ -14,17 +14,22 @@ import java.util.List;
  * @author Gerard
  */
 public class Question {
+
+    private int questionId;
     private String questionText;
     private Date datePosted = new Date();
     private Student questionAsker;
     private List<Answer> allAnswers;
 
-    public Question(String questionText, Date datePosted, String tNumber, String userPassword) {
+    public Question(int questionId, String questionText, Date datePosted, String tNumber, String userPassword) {
+        this.questionId = questionId;
         setQuestionText(questionText);
         this.datePosted = datePosted;
         this.questionAsker = new Student(tNumber, userPassword);
         this.allAnswers = new LinkedList<>();
     }
+
+    public int getQuestionId(){ return questionId; }
 
     public Date getDatePosted() {
         return datePosted;
@@ -45,14 +50,15 @@ public class Question {
     @Override
     public String toString() {
         if (allAnswers != null){
-            return "\nDate Posted:" + getDatePosted() +
+            return "\nQuestion ID:" + getQuestionId() +
+                    "\nDate Posted:" + getDatePosted() +
                     "\nQuestion:" + getQuestionText() +
                     "\nPosted By: " + getStudent().toString() +
                     "\nAnswers: " + printAnswers();
         }
         else
-            return
-                "\nDate Posted:" + getDatePosted() +
+            return "\nQuestion ID:" + getQuestionId() +
+                        "\nDate Posted:" + getDatePosted() +
                         "\nQuestion:" + getQuestionText() +
                         "\nPosted By: " + getStudent().toString();
     }

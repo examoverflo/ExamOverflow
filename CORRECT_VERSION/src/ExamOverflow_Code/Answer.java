@@ -15,7 +15,7 @@ public class Answer {
     public Answer(String answerText,Date dateAnswered,
                   String questionText, Date datePosted, String tNumberQuestioner, String passwordQuestioner,
                   String tNumberAnswerer, String passwordAnswerer) {
-        this.answerText = answerText;
+        setAnswerText(answerText);
         this.dateAnswered = dateAnswered;
         this.question = new Question(questionText, datePosted, tNumberQuestioner, passwordQuestioner);
         this.answerPoster = new Student(tNumberAnswerer, passwordAnswerer);
