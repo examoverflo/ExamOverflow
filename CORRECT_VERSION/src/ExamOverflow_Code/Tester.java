@@ -14,23 +14,28 @@ public class Tester {
 
         System.out.println(new Date());
         String search;
+        int id;
 
         //test get answers to certain question
-        /*search = "What is OOP";
+        id = 2;
 
-        List<Answer> questionAnswer = inventory.searchForAnswersByQuestion(search);
-        System.out.println("Searching for answer to " + search);
-
-        if(!questionAnswer.isEmpty()) {
-            System.out.println("................\n"
-                             + "Here are all the answers:");
-            for (Answer answer : questionAnswer) {
-                System.out.println(answer.getAnswerText());
-            }
+        if (inventory.searchForQuestionByQuestionId(id) == null){
+            System.out.println("Question ID: " + id + " does not exist");
         }
         else {
-            System.out.println("Unfortunately, no answers have been given for this question");
-        }*/
+            List<Answer> questionAnswer = inventory.searchForAnswersByQuestionId(id);
+            System.out.println("Searching for answer to " + inventory.searchForQuestionByQuestionId(id));
+
+            if (!questionAnswer.isEmpty()) {
+                System.out.println("................\n"
+                        + "Here are all the answers:");
+                for (Answer answer : questionAnswer) {
+                    System.out.println(answer.getAnswerText());
+                }
+            } else {
+                System.out.println("Unfortunately, no answers have been given for this question");
+            }
+        }
 
         System.out.println("\n\n\n\n");
         //test get questions for certain t-number

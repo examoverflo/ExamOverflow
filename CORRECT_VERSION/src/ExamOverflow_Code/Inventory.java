@@ -40,16 +40,27 @@ public class Inventory {
         answers.add(answer);
     }
 
-    //search for answers to certain question
-    /*public List<Answer> searchForAnswersByQuestion(String questionText) {
+    //search for question by id
+    public List<Question> searchForQuestionByQuestionId(int questionId) {
 
-        List<Answer> matchingAnswers = new LinkedList<Answer>();
+        List<Question> matchingQuestions = new LinkedList<>();
+        for (Question q : questions) {
+            if (q.getQuestionId() == questionId)
+                matchingQuestions.add(q);
+        }
+        return matchingQuestions;
+    }
+
+    //search for answers to certain question
+    public List<Answer> searchForAnswersByQuestionId(int questionId) {
+
+        List<Answer> matchingAnswers = new LinkedList<>();
         for (Answer answer : answers) {
-            if (answer.getQuestion().getQuestionText().equals(questionText))
+            if (answer.getQuestionId() == questionId)
                 matchingAnswers.add(answer);
         }
         return matchingAnswers;
-    }*/
+    }
 
     //search for questions posted by certain T-Number
     public List<Question> searchWhoPostedQuestion(String tNumber) {
@@ -65,7 +76,7 @@ public class Inventory {
     //search for questions posted by certain T-Number
     public List<Answer> searchForAnswersByTNumber(String tNumber) {
 
-        List<Answer> matchingAnswers = new LinkedList<Answer>();
+        List<Answer> matchingAnswers = new LinkedList<>();
         for (Answer answer : answers) {
             if (answer.getAnswerPoster().getTNumber().equals(tNumber))
                 matchingAnswers.add(answer);
