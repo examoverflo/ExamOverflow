@@ -20,13 +20,15 @@ public class Question {
     private String questionText;
     private Date datePosted = new Date();
     private Student questionAsker;
+    Module module;
     private List<Answer> allAnswers;
 
-    public Question(int questionId, String questionText, Date datePosted, String tNumber, String userPassword) {
+    public Question(int questionId, String questionText, Date datePosted, String tNumber, String userPassword,Module module) {
         this.questionId = questionId;
         setQuestionText(questionText);
         this.datePosted = datePosted;
         this.questionAsker = new Student(tNumber, userPassword);
+        this.module = module;
         allAnswers = new LinkedList<>();
     }
 
@@ -88,5 +90,9 @@ public class Question {
             }
 
         }
+    }
+
+    public Module getModule(){
+        return module;
     }
 }
