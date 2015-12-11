@@ -16,24 +16,18 @@ public class Inventory {
     public Inventory(){
         students = new LinkedList<>();
         questions = new LinkedList<Question>();
-        answers = new LinkedList<Answer>();
+
     }
 
-    public List<Question> getStudents(){
-        return questions;
-    }
 
     public void addStudent(Student s){
 
-        Student student = new Student(s.getTNumber(), s.getUserPassword());
-        students.add(student);
+        students.add(s);
     }
 
     public void addQuestion(Question q){
 
-        Question question = new Question(q.getQuestionId(), q.getQuestionText(), q.getDatePosted(),
-                                            q.getStudent().getTNumber(), q.getStudent().getUserPassword());
-        questions.add(question);
+        questions.add(q);
     }
 
     public void addAnswer(Answer a){
@@ -105,16 +99,5 @@ public class Inventory {
         return matchingAnswers;
     }
 
-    public List<Answer> printAnswersForQuestionId(int questionId){
-        List<Answer> matchAns = new LinkedList<Answer>();
-
-        for(Question q: questions)
-        {
-            if(q.getQuestionId() == questionId){
-                matchAns = q.getAllAnswers();
-            }
-        }
-        return matchAns;
-    }
 
 }
