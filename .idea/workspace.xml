@@ -88,11 +88,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seek Answer To Exam Question.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Seek Answer To Exam Question.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/Use Cases/Seek Answer To Exam Question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6357388">
+            <state vertical-scroll-proportion="-36.615383">
               <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plan of Possible Future Changes.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/ChangesToProject/Plan of Possible Future Changes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,6 +167,7 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
         <option value="$PROJECT_DIR$/.idea/Use Cases/Seek Answer To General Question.html" />
         <option value="$PROJECT_DIR$/.idea/Use Cases/Seek Answer To Exam Question.html" />
+        <option value="$PROJECT_DIR$/.idea/ChangesToProject/Plan of Possible Future Changes.html" />
       </list>
     </option>
   </component>
@@ -257,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Use Cases" />
+              <option name="myItemId" value="ChangesToProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,13 +644,7 @@
       <workItem from="1449747446008" duration="529000" />
       <workItem from="1449756742414" duration="2297000" />
       <workItem from="1449775532091" duration="8643000" />
-      <workItem from="1449836283624" duration="207000" />
-    </task>
-    <task id="LOCAL-00014" summary="Updateed super class and toString for GeneralQuestion">
-      <created>1449499147092</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1449499147092</updated>
+      <workItem from="1449836283624" duration="305000" />
     </task>
     <task id="LOCAL-00015" summary="Created subclass ExamQuestion which extends abstract class Question">
       <created>1449500313167</created>
@@ -929,11 +934,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449836419531</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Created new use case for an Exam Question">
+      <created>1449836503330</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1449836503330</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40450000" />
+    <option name="totallyTimeSpent" value="40548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1003,7 +1014,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed userName variable from Student class as it was not needed. Also removed setter method for tNumber as it is an immutable variable" />
     <MESSAGE value="Updated Answer class so that a new Student Object was created each time a new Answer was created" />
     <MESSAGE value="Updated Answer class so tha when the Answer toString method is called the tNumber for the Student who posted the answer is also displayed" />
     <MESSAGE value="Removed setter methods for datePosted, questionID, tNumber as these variables are immutable" />
@@ -1028,7 +1038,8 @@
     <MESSAGE value="Tested searchForAnswers method in Inventory class via Tester class" />
     <MESSAGE value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
     <MESSAGE value="Created new use case for General Question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new use case for General Question" />
+    <MESSAGE value="Created new use case for an Exam Question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new use case for an Exam Question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1443,8 +1454,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/Use Cases/Seek Answer To Exam Question.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6357388">
+        <state vertical-scroll-proportion="-36.615383">
           <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/ChangesToProject/Plan of Possible Future Changes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
