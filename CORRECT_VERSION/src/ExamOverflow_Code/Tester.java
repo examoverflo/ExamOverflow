@@ -86,11 +86,11 @@ public class Tester {
         Student s3 = new Student("t003", "password3");
         inventory.addStudent(s3);
 
-        Question q1 = new Question(1, "What is OOP", new Date(), s1.getTNumber(), s1.getUserPassword());
+        Question q1 = new Question(1, "What is OOP", new Date(), s1.getTNumber(), s1.getUserPassword(),Module.OOP3);
         inventory.addQuestion(q1);
-        Question q2 = new Question(2, "What is polymorphism", new Date(), s2.getTNumber(), s2.getUserPassword());
+        Question q2 = new Question(2, "What is polymorphism", new Date(), s2.getTNumber(), s2.getUserPassword(),Module.OOP4);
         inventory.addQuestion(q2);
-        Question q3 = new Question(3, "What is a checked exception", new Date(), s3.getTNumber(), s3.getUserPassword());
+        Question q3 = new Question(3, "What is a checked exception", new Date(), s3.getTNumber(), s3.getUserPassword(),Module.OOP4);
         inventory.addQuestion(q3);
 
         Answer a1 = new Answer("I have no idea", new Date(),
