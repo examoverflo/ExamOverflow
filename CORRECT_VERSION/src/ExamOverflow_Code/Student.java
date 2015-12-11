@@ -37,11 +37,8 @@ public class Student {
     }
 
     public String toString(){
-        if (getUserPassword() == null)
             return "Student T-number: " + getTNumber();
-        else
-            return "Student T-number: " + getTNumber() +
-                "Student Password: " + getUserPassword();
+
     }
 }
     

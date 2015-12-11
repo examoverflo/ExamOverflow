@@ -5,6 +5,7 @@
  */
 package ExamOverflow_Code;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -26,7 +27,7 @@ public class Question {
         setQuestionText(questionText);
         this.datePosted = datePosted;
         this.questionAsker = new Student(tNumber, userPassword);
-        this.allAnswers = new LinkedList<>();
+        allAnswers = new LinkedList<>();
     }
 
     public int getQuestionId(){ return questionId; }
@@ -53,8 +54,9 @@ public class Question {
             return "\nQuestion ID:" + getQuestionId() +
                     "\nDate Posted:" + getDatePosted() +
                     "\nQuestion:" + getQuestionText() +
-                    "\nPosted By: " + getStudent().toString() +
-                    "\nAnswers: " + printAnswers();
+                    "\nPosted By: " + getStudent().toString();
+
+                    // + "\nAnswers: " + printAnswers();
         }
         else
             return "\nQuestion ID:" + getQuestionId() +
@@ -67,8 +69,8 @@ public class Question {
         this.allAnswers.add(ans);
     }
 
-    public List<Answer> getAnswer(){
-        return allAnswers;
+    public List<Answer> getAllAnswers(){
+        return this.allAnswers;
     }
 
     public String printAnswers(){

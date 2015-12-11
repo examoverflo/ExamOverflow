@@ -77,7 +77,7 @@ public class Answer {
         return "\nAnswer: " + getAnswerText() +
                 "\nDate Answered: " + getDateAnswered() +
                 "\nQuestion ID: " + getQuestionId() +
-                "\n" + answerPoster.toString();
+                "\n" + getAnswerPoster();
     }
 
 }

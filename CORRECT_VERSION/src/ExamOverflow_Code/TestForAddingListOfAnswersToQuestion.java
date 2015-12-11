@@ -1,6 +1,7 @@
 package ExamOverflow_Code;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by Gerard on 11/12/2015.
@@ -29,11 +30,17 @@ public class TestForAddingListOfAnswersToQuestion {
         System.out.println("adding a1 to q1.......");
         q1.setAnswer(a1);
         System.out.println("adding a2 to q1.......");
-        q1.setAnswer(a2);
+        q2.setAnswer(a2);
         System.out.println("adding a3 to q1.......");
         q1.setAnswer(a3);
 
         System.out.println("printing q1.......");
         System.out.println(q1.toString());
+
+        List<Answer> matchAns = q3.getAllAnswers();
+        System.out.println("??????????????????????????????????????????????\n?????????????????????????????????");
+        for(Answer ans:matchAns) {
+            System.out.println(ans.toString());
+        }
     }
 }

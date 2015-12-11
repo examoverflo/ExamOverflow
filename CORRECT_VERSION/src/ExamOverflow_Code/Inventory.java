@@ -19,8 +19,8 @@ public class Inventory {
         answers = new LinkedList<Answer>();
     }
 
-    public List<Student> getStudents(){
-        return students;
+    public List<Question> getStudents(){
+        return questions;
     }
 
     public void addStudent(Student s){
@@ -36,32 +36,41 @@ public class Inventory {
         questions.add(question);
     }
 
-    public void addAnswer(Answer a, Question q){
+    public void addAnswer(Answer a){
 
-        Answer answer = new Answer(a.getAnswerText(), a.getDateAnswered(),
-                q.getQuestionId(),
-                a.getAnswerPoster().getTNumber());
-        q.setAnswer(answer);
+        //Answer answer = new Answer(a.getAnswerText(), a.getDateAnswered(),
+          //      q.getQuestionId(),
+            //    a.getAnswerPoster().getTNumber());
+        for(Question q: questions){
+            if(q.getQuestionId() == a.getQuestionId()){
+                q.setAnswer(a);
+            }
+        }
+
+
     }
 
     //search for question by id
-    public List<Question> searchForQuestionByQuestionId(int questionId) {
+    public Question searchForQuestionByQuestionId(int questionId) {
 
-        List<Question> matchingQuestions = new LinkedList<>();
+        Question matchingQuestion;
         for (Question q : questions) {
             if (q.getQuestionId() == questionId)
-                matchingQuestions.add(q);
+                return matchingQuestion = q;
         }
-        return matchingQuestions;
+
+        return null;
     }
 
     //search for answers to certain question
     public List<Answer> searchForAnswersByQuestionId(int questionId) {
 
         List<Answer> matchingAnswers = new LinkedList<>();
-        for (Answer answer : answers) {
-            if (answer.getQuestionId() == questionId)
-                matchingAnswers.add(answer);
+
+        for(Question q : questions){
+            if(q.getQuestionId() == questionId){
+                matchingAnswers = q.getAllAnswers();
+            }
         }
         return matchingAnswers;
     }
@@ -81,11 +90,31 @@ public class Inventory {
     public List<Answer> searchForAnswersByTNumber(String tNumber) {
 
         List<Answer> matchingAnswers = new LinkedList<>();
-        for (Answer answer : answers) {
-            if (answer.getAnswerPoster().getTNumber().equals(tNumber))
-                matchingAnswers.add(answer);
+
+        for (Question question : questions) {
+            List<Answer> speficQuestionAnswers = new LinkedList<>();
+            for(Answer ans:question.getAllAnswers()){
+                if(ans.getAnswerPoster().getTNumber().equals(tNumber)){
+                    speficQuestionAnswers.add(ans);
+                }
+                matchingAnswers.addAll(speficQuestionAnswers);
+            }
+            return matchingAnswers;
+
         }
         return matchingAnswers;
+    }
+
+    public List<Answer> printAnswersForQuestionId(int questionId){
+        List<Answer> matchAns = new LinkedList<Answer>();
+
+        for(Question q: questions)
+        {
+            if(q.getQuestionId() == questionId){
+                matchAns = q.getAllAnswers();
+            }
+        }
+        return matchAns;
     }
 
 }

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="Updated inventory methods to get answers by question&#10;get answers by tnumber&#10;get question by tnumber">
+    <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -26,12 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
+      <file leaf-file-name="TestForAddingListOfAnswersToQuestion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="69" selection-start-line="33" selection-start-column="18" selection-end-line="35" selection-end-column="69" />
-              <folding />
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,18 +47,13 @@
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="109" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestForAddingListOfAnswersToQuestion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="54" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="54" />
-              <folding />
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+              <folding>
+                <element signature="e#1937#1938#0" expanded="true" />
+                <element signature="e#1977#1978#0" expanded="true" />
+                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="e#2057#2058#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,31 +62,50 @@
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2777778">
-              <caret line="47" column="55" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="55" />
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="100" column="30" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="30" />
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+              <folding>
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3187#3195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3315412">
+              <caret line="52" column="61" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -132,12 +153,12 @@
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Tester.java" />
         <option value="$PROJECT_DIR$/Code/src/CodeVersion2/Inventory.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Override.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
       </list>
     </option>
   </component>
@@ -655,13 +676,7 @@
       <workItem from="1449756742414" duration="2297000" />
       <workItem from="1449775532091" duration="8643000" />
       <workItem from="1449836217455" duration="1901000" />
-      <workItem from="1449845027838" duration="597000" />
-    </task>
-    <task id="LOCAL-00025" summary="Updated Question Class to include reference to Module Enum">
-      <created>1449512962575</created>
-      <option name="number" value="00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1449512962575</updated>
+      <workItem from="1449845027838" duration="8802000" />
     </task>
     <task id="LOCAL-00026" summary="Updated GeneralQuestion and ExamQuestion to include module">
       <created>1449513141412</created>
@@ -951,11 +966,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449841758804</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="updated addAnswer in Inventory class so that the answer is added to the list of answers for the Question class">
+      <created>1449845697789</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1449845697806</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45663000" />
+    <option name="totallyTimeSpent" value="53868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -963,7 +984,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -978,7 +999,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.334471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1025,7 +1046,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed setter methods for datePosted, questionID, tNumber as these variables are immutable" />
     <MESSAGE value="Removed tNumber from the Question Class" />
     <MESSAGE value="Introduced Student variable to Question class. Each time a question is asked a new Student object is created." />
     <MESSAGE value="Updated Question toString method to display the tNumber of the Student who Posted the Question" />
@@ -1050,10 +1070,13 @@
     <MESSAGE value="Updated constructors in Inventory class to use questionId instead of Question object inline with new constructors in Question and Answer classes&#10;Created second constructor in Answer class which also takes a Student password" />
     <MESSAGE value="Update test classes to new match new constructors" />
     <MESSAGE value="Tested add answer to question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested add answer to question" />
+    <MESSAGE value="updated addAnswer in Inventory class so that the answer is added to the list of answers for the Question class" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated addAnswer in Inventory class so that the answer is added to the list of answers for the Question class" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1065,7 +1088,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,8 +1105,7 @@
           <caret line="62" column="53" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#3187#3195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1093,7 +1122,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,7 +1133,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,7 +1146,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,8 +1163,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#3187#3195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1137,7 +1180,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1145,7 +1191,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,7 +1204,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,8 +1221,7 @@
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#3187#3195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1197,8 +1254,7 @@
           <caret line="40" column="14" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#3187#3195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1244,8 +1300,7 @@
           <caret line="40" column="14" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#3187#3195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1412,55 +1467,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="109" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="69" selection-start-line="33" selection-start-column="18" selection-end-line="35" selection-end-column="69" />
-          <folding />
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding />
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="54" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="30" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="30" />
-          <folding />
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding>
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2777778">
-          <caret line="47" column="55" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#3187#3195#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3315412">
+          <caret line="52" column="61" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
