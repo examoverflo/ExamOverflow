@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ChangesToProject/Plan of Possible Future Changes.html" />
+    <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="Created a plan of possible future changes to the project.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -65,8 +64,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plan of Possible Future Changes.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Plan of Possible Future Changes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/ChangesToProject/Plan of Possible Future Changes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Seek Answer To General Question.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/Use Cases/Seek Answer To General Question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Seek Answer to Exam Question.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Exam Question.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -254,6 +273,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Use Cases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamOverflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamOverflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Textual Analysis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -672,13 +709,7 @@
       <workItem from="1449756742414" duration="2297000" />
       <workItem from="1449775532091" duration="8643000" />
       <workItem from="1449836217455" duration="1901000" />
-      <workItem from="1449838556748" duration="51000" />
-    </task>
-    <task id="LOCAL-00015" summary="Created subclass ExamQuestion which extends abstract class Question">
-      <created>1449500313167</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1449500313167</updated>
+      <workItem from="1449838556748" duration="240000" />
     </task>
     <task id="LOCAL-00016" summary="Created subclass ExamQuestion which extends abstract class Question">
       <created>1449500429028</created>
@@ -968,11 +999,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449837580668</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Created a plan of possible future changes to the project.">
+      <created>1449838636375</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1449838636375</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42195000" />
+    <option name="totallyTimeSpent" value="42384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="328" y="279" width="1382" height="744" extended-state="0" />
@@ -980,6 +1017,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -994,7 +1032,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1042,7 +1079,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed userName variable from Student class as it was not needed. Also removed setter method for tNumber as it is an immutable variable" />
     <MESSAGE value="Updated Answer class so that a new Student Object was created each time a new Answer was created" />
     <MESSAGE value="Updated Answer class so tha when the Answer toString method is called the tNumber for the Student who posted the answer is also displayed" />
     <MESSAGE value="Removed setter methods for datePosted, questionID, tNumber as these variables are immutable" />
@@ -1067,7 +1103,8 @@
     <MESSAGE value="Tested searchForAnswers method in Inventory class via Tester class" />
     <MESSAGE value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
     <MESSAGE value="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods" />
+    <MESSAGE value="Created a plan of possible future changes to the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a plan of possible future changes to the project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1078,24 +1115,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="53" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1489,6 +1508,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/ChangesToProject/Plan of Possible Future Changes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Use Cases/Seek Answer To General Question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Textual Analysis/Seek Answer to Exam Question.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
