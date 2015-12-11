@@ -17,7 +17,7 @@ public class Question {
     private String questionText;
     private Date datePosted = new Date();
     private Student questionAsker;
-    private List<Answer> allAnswers = null;
+    private List<Answer> allAnswers;
 
     public Question(String questionText, Date datePosted, String tNumber, String userPassword) {
         setQuestionText(questionText);

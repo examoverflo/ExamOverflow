@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,34 +32,36 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="false" />
+                <element signature="e#813#814#0" expanded="false" />
+                <element signature="e#865#866#0" expanded="false" />
+                <element signature="e#909#910#0" expanded="false" />
+                <element signature="e#946#947#0" expanded="false" />
+                <element signature="e#981#982#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Question.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.34085214">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
-                <element signature="e#0#2054#0" expanded="true" />
-                <element signature="e#1839#1840#0" expanded="true" />
-                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#0#2047#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1865#1866#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestForAddingListOfAnswersToQuestion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestForAddingListOfAnswersToQuestion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7026239">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,7 +72,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-              <folding />
+              <folding>
+                <element signature="e#0#866#0" expanded="false" />
+                <element signature="e#499#500#0" expanded="false" />
+                <element signature="e#529#530#0" expanded="false" />
+                <element signature="e#569#570#0" expanded="false" />
+                <element signature="e#604#605#0" expanded="false" />
+                <element signature="e#660#661#0" expanded="false" />
+                <element signature="e#708#709#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,8 +153,8 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
       </list>
     </option>
   </component>
@@ -651,13 +660,7 @@
       <workItem from="1449747446008" duration="529000" />
       <workItem from="1449756742414" duration="2297000" />
       <workItem from="1449775532091" duration="8643000" />
-      <workItem from="1449836217455" duration="963000" />
-    </task>
-    <task id="LOCAL-00013" summary="Pushed down DatePosted stuff to GeneralQuestion">
-      <created>1449498334610</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1449498334610</updated>
+      <workItem from="1449836217455" duration="1292000" />
     </task>
     <task id="LOCAL-00014" summary="Updateed super class and toString for GeneralQuestion">
       <created>1449499147092</created>
@@ -947,11 +950,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449786927457</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods">
+      <created>1449837308420</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1449837308479</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41206000" />
+    <option name="totallyTimeSpent" value="41535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -959,13 +968,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19180088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1021,7 +1030,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed userName variable from Student class as it was not needed" />
     <MESSAGE value="Removed userName variable from Student class as it was not needed. Also removed setter method for tNumber as it is an immutable variable" />
     <MESSAGE value="Updated Answer class so that a new Student Object was created each time a new Answer was created" />
     <MESSAGE value="Updated Answer class so tha when the Answer toString method is called the tNumber for the Student who posted the answer is also displayed" />
@@ -1046,7 +1054,8 @@
     <MESSAGE value="Updated tester class for doing some testing" />
     <MESSAGE value="Tested searchForAnswers method in Inventory class via Tester class" />
     <MESSAGE value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
+    <MESSAGE value="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1062,10 +1071,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#981#982#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1075,9 +1086,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
-            <element signature="e#0#2054#0" expanded="true" />
-            <element signature="e#1839#1840#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#0#2047#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1865#1866#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1086,7 +1097,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#0#866#0" expanded="false" />
+            <element signature="e#499#500#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#708#709#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,10 +1132,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
           <folding>
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#981#982#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1126,9 +1147,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2054#0" expanded="true" />
-            <element signature="e#1839#1840#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#0#2047#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1865#1866#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1137,7 +1158,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="e#0#866#0" expanded="false" />
+            <element signature="e#499#500#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#708#709#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1316,6 +1345,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,7 +1423,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#0#866#0" expanded="false" />
+            <element signature="e#499#500#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#708#709#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1402,10 +1440,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#981#982#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1428,23 +1468,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#2054#0" expanded="true" />
-            <element signature="e#1839#1840#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-          </folding>
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java">
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7026239">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.34085214">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#2047#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1865#1866#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
