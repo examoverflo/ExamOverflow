@@ -9,16 +9,26 @@ public class Answer {
 
     private String answerText;
     private Date dateAnswered;
-    private Question question;
+    //private Question question;
+    private int questionId;
     private Student answerPoster;
 
-    public Answer(String answerText,Date dateAnswered,
+/*    public Answer(String answerText,Date dateAnswered,
                   String questionText, Date datePosted, String tNumberQuestioner, String passwordQuestioner,
                   String tNumberAnswerer, String passwordAnswerer) {
         setAnswerText(answerText);
         this.dateAnswered = dateAnswered;
         this.question = new Question(questionText, datePosted, tNumberQuestioner, passwordQuestioner);
         this.answerPoster = new Student(tNumberAnswerer, passwordAnswerer);
+    }
+*/
+    public Answer(String answerText, Date dateAnswered,
+                  int questionId,
+                  String tNumberOfAnswerer){
+        setAnswerText(answerText);
+        this.dateAnswered = dateAnswered;
+        this.questionId = questionId;
+        this.answerPoster = new Student(tNumberOfAnswerer);
     }
 
     public String getAnswerText() {
@@ -32,15 +42,19 @@ public class Answer {
     public Date getDateAnswered() {
         return dateAnswered;
     }
-
+/*
     public Question getQuestion(){
         return question;
+    }
+*/
+    public int getQuestionId(){
+        return questionId;
     }
 
     public Student getAnswerPoster(){
         return answerPoster;
     }
-
+/*
    @Override
     public String toString() {
         return
@@ -49,4 +63,12 @@ public class Answer {
                         "\n" + question.toString() +
                         "\n" + answerPoster.toString();
     }
+*/
+    public String toString(){
+        return "\nAnswer: " + getAnswerText() +
+                "\nDate Answered: " + getDateAnswered() +
+                "\nQuestion ID: " + getQuestionId() +
+                "\n" + answerPoster.toString();
+    }
+
 }
