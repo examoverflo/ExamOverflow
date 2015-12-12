@@ -96,8 +96,8 @@ public class Inventory {
 
         List<Question> matchingQuestions = new LinkedList<>();
 
-        for(Question question:questions){
-            if(question.getModule().equals(module))
+        for(Question question: questions){
+            if(question.getModule() == module)
             {
                 matchingQuestions.add(question);
             }

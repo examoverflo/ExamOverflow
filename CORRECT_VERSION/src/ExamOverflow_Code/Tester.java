@@ -44,7 +44,7 @@ public class Tester {
         search = "t003";
 
         List<Question> questions = inventory.searchWhoPostedQuestion(search);
-        System.out.println("Searching T-Number that asked " + search);
+        System.out.println("Searching for questions asked by " + search);
 
         if (!questions.isEmpty()) {
             System.out.println("................\n"
@@ -72,6 +72,21 @@ public class Tester {
             }
         } else {
             System.out.println("Unfortunately, no answers have been provided by this student");
+        }
+
+        Module searchModule = Module.OOP4;
+
+        List<Question> matchingQuestions = inventory.getQuestionsByModule(searchModule);
+
+        if(!matchingQuestions.isEmpty()){
+            System.out.println("................\n"
+                    + "Here are all the questions for " + searchModule);
+            for(Question question:matchingQuestions){
+                System.out.println(question.toString());
+            }
+        }
+        else{
+            System.out.println("Unfortunately there are no questoins for " + searchModule);
         }
 
 
