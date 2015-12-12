@@ -49,14 +49,14 @@ public class Question {
         if (allAnswers != null){
             return "\nQuestion ID:" + getQuestionId() +
                    "\nQuestion:" + getQuestionText() +
-                    "\nPosted By: " + getStudent().toString();
+                    getStudent().toString();
 
                     // + "\nAnswers: " + printAnswers();
         }
         else
             return "\nQuestion ID:" + getQuestionId() +
                         "\nQuestion:" + getQuestionText() +
-                        "\nPosted By: " + getStudent().toString();
+                        getStudent().toString();
     }
 
     public void setAnswer(Answer ans){

@@ -14,8 +14,11 @@ public class TestForAddingListOfAnswersToQuestion {
 
         //int questionId, String questionText, Date datePosted, String tNumber, String userPassword
         Question q1 = new GeneralQuestion(1, "What is OOP", s1.getTNumber(), s1.getUserPassword(),Module.OOP3, new Date());
-        Question q2 = new GeneralQuestion(2, "What is polymorphism", s2.getTNumber(), s2.getUserPassword(),Module.OOP4, new Date());
+        Question q2 = new ExamQuestion(2015,2,1, "What is polymorphism", s2.getTNumber(), s2.getUserPassword(),Module.OOP4);
         Question q3 = new GeneralQuestion(3, "What is a checked exception", s3.getTNumber(), s3.getUserPassword(),Module.OOP4, new Date());
+
+        System.out.println(q3.toString());
+        System.out.println(q2.toString());
 
         Answer a1 = new Answer("I have no idea", new Date(),
                 1,
