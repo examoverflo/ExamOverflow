@@ -107,9 +107,9 @@ public class Inventory {
 
     public List<Question> getAllExamQuestions(){
         List<Question> allExamQuestions = new LinkedList();
-
+        String questionType;
         for(Question question:questions){
-            String questionType = question.getClass().getSimpleName();
+            questionType = question.getClass().getSimpleName();
             if(questionType.equals("ExamQuestion")){
                 allExamQuestions.add(question);
             }

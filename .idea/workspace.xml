@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/ExamQuestion.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/ExamQuestion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -92,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5035842">
-              <caret line="110" column="41" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#375#376#0" expanded="true" />
@@ -131,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="138" column="34" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.44623655">
+              <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,8 +187,8 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/GeneralQuestion.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/ExamQuestion.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
       </list>
     </option>
   </component>
@@ -711,13 +708,7 @@
       <workItem from="1449775532091" duration="8643000" />
       <workItem from="1449836217455" duration="1901000" />
       <workItem from="1449845027838" duration="11642000" />
-      <workItem from="1449917869994" duration="6591000" />
-    </task>
-    <task id="LOCAL-00045" summary="Created addAnswer(Answer ans) method which will add answers to the List created previously.">
-      <created>1449758398963</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1449758398963</updated>
+      <workItem from="1449917869994" duration="6710000" />
     </task>
     <task id="LOCAL-00046" summary="Updated Inventory class so that the Question and Answer objects were passed the correct number of arguments">
       <created>1449758729981</created>
@@ -1007,11 +998,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449920875257</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Created method in Inventory Class which returns all ExamQuestion which have been asked. Updated Tester class to test the method">
+      <created>1449924567290</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1449924567290</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63299000" />
+    <option name="totallyTimeSpent" value="63418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1081,7 +1078,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tested searchForAnswers method in Inventory class via Tester class" />
     <MESSAGE value="Created and tested searchWhoPostedQuestion in Inventory class via Tester class" />
     <MESSAGE value="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods" />
     <MESSAGE value="Updated constructors in Inventory class to use questionId instead of Question object inline with new constructors in Question and Answer classes&#10;Created second constructor in Answer class which also takes a Student password" />
@@ -1106,7 +1102,8 @@
     <MESSAGE value="Introduced new Class ExamQuestion which is a subclass of Question" />
     <MESSAGE value="Updated Tester to create valid GeneralQuestion objects in place of Question Objects" />
     <MESSAGE value="Updated toString method in ExamQuestion and Question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated toString method in ExamQuestion and Question" />
+    <MESSAGE value="Created method in Inventory Class which returns all ExamQuestion which have been asked. Updated Tester class to test the method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created method in Inventory Class which returns all ExamQuestion which have been asked. Updated Tester class to test the method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1538,23 +1535,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="34" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5035842">
-          <caret line="110" column="41" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#375#376#0" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44623655">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
