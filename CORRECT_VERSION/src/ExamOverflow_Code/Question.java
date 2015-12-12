@@ -46,17 +46,10 @@ public class Question {
 
     @Override
     public String toString() {
-        if (allAnswers != null){
-            return "\nQuestion ID:" + getQuestionId() +
-                   "\nQuestion:" + getQuestionText() +
-                    getStudent().toString();
-
-                    // + "\nAnswers: " + printAnswers();
-        }
-        else
-            return "\nQuestion ID:" + getQuestionId() +
-                        "\nQuestion:" + getQuestionText() +
-                        getStudent().toString();
+            return  "\nQuestion ID:" + getQuestionId() +
+                    "\nQuestion:" + getQuestionText() +
+                    "\n" +  getStudent().toString() +
+                    "\nModule: " + getModule().toString();
     }
 
     public void setAnswer(Answer ans){

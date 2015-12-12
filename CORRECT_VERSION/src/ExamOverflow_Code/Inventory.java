@@ -13,7 +13,7 @@ public class Inventory {
 
     public Inventory(){
         students = new LinkedList<>();
-        questions = new LinkedList<Question>();
+        questions = new LinkedList<>();
 
     }
 
@@ -77,7 +77,7 @@ public class Inventory {
         }
     }
 
-    //search for questions posted by certain T-Number
+    //search for answers posted by certain T-Number
     public List<Answer> searchForAnswersByTNumber(String tNumber) {
 
         List<Answer> matchingAnswers = new LinkedList<>();
@@ -103,6 +103,18 @@ public class Inventory {
             }
         }
         return matchingQuestions;
+    }
+
+    public List<Question> getAllExamQuestions(){
+        List<Question> allExamQuestions = new LinkedList();
+
+        for(Question question:questions){
+            String questionType = question.getClass().getSimpleName();
+            if(questionType.equals("ExamQuestion")){
+                allExamQuestions.add(question);
+            }
+        }
+        return allExamQuestions;
     }
 
 

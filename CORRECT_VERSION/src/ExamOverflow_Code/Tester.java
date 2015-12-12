@@ -1,6 +1,7 @@
 package ExamOverflow_Code;
 
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -13,7 +14,7 @@ public class Tester {
 
         initialiseInventory(inventory);
 
-        int id = 1;
+        int id = 4;
 
         Question desiredQuestion = inventory.searchForQuestionByQuestionId(id);
 
@@ -39,9 +40,12 @@ public class Tester {
         String search;
 
 
-        System.out.println("\n\n\n\n");
+        System.out.println( "\n*******************" +
+                            "\n*******************" +
+                            "\n*******************");
+
         //test get questions for certain t-number
-        search = "t003";
+        search = "t001";
 
         List<Question> questions = inventory.searchWhoPostedQuestion(search);
         System.out.println("Searching for questions asked by " + search);
@@ -56,17 +60,18 @@ public class Tester {
             System.out.println("Unfortunately, no questions have been asked by this student");
         }
 
-        System.out.println("\n\n\n\n");
-
+        System.out.println( "\n*******************" +
+                            "\n*******************" +
+                            "\n*******************");
         //test search for answers for certain t-number
-        search = "t002";
+        search = "t001";
 
         List<Answer> answers = inventory.searchForAnswersByTNumber(search);
-        System.out.println("Searching for answers posted by " + search);
+        System.out.println("Searching for answers posted by " + search + "\n");
 
         if (!answers.isEmpty()) {
             System.out.println("................\n"
-                    + "Here are all the answers:");
+                    + "Here are all the answers:\n");
             for (Answer answer : answers) {
                 System.out.println(answer.getAnswerText());
             }
@@ -75,6 +80,10 @@ public class Tester {
         }
 
         Module searchModule = Module.OOP4;
+
+        System.out.println( "\n*******************" +
+                            "\n*******************" +
+                            "\n*******************");
 
         List<Question> matchingQuestions = inventory.getQuestionsByModule(searchModule);
 
@@ -86,8 +95,21 @@ public class Tester {
             }
         }
         else{
-            System.out.println("Unfortunately there are no questoins for " + searchModule);
+            System.out.println("Unfortunately there are no questions for " + searchModule);
         }
+
+        System.out.println("\n*******************" +
+                "\n*******************" +
+                "\n*******************");
+
+        List<Question> allExamQuestions = inventory.getAllExamQuestions();
+
+        if(!allExamQuestions.isEmpty())
+            System.out.println("\nAll Exam Questions Posted: \n\n");
+            for(Question question:allExamQuestions){
+                System.out.println(question.toString());
+            }
+
 
 
 
@@ -110,6 +132,12 @@ public class Tester {
         Question q3 = new GeneralQuestion(3, "What is a checked exception", s3.getTNumber(), s3.getUserPassword(),Module.OOP4, new Date());
         inventory.addQuestion(q3);
 
+        Question q4 = new ExamQuestion(2015,1,4,"Describe what a Unit Test Plan Includes",s1.getTNumber(),s1.getUserPassword(),Module.SOFTWARE_TESTING);
+        inventory.addQuestion(q4);
+
+        Question q5 = new ExamQuestion(2015,2,5,"Describe the process in setting up a....",s1.getTNumber(),s1.getUserPassword(),Module.SOFTWARE_TESTING);
+        inventory.addQuestion(q5);
+
         Answer a1 = new Answer("I have no idea", new Date(),
                 1,
                 s1.getTNumber(), s1.getUserPassword());
@@ -122,6 +150,10 @@ public class Tester {
                 1,
                 s1.getTNumber(), s1.getUserPassword());
         inventory.addAnswer(a3);
+
+        Answer a4 = new Answer("A test plan includes.....", new Date(),
+                4,s1.getTNumber(),s1.getUserPassword());
+        inventory.addAnswer(a4);
 
         }
 
