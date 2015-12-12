@@ -14,7 +14,7 @@ import java.util.List;
  *
  * @author Gerard
  */
-public class Question {
+public abstract class Question {
 
     private int questionId;
     private String questionText;
