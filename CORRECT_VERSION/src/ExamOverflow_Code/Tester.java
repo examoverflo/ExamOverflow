@@ -14,11 +14,11 @@ public class Tester {
 
         initialiseInventory(inventory);
 
-        int id = 4;
+        int id = 1;
 
         Question desiredQuestion = inventory.searchForQuestionByQuestionId(id);
 
-        desiredQuestion.printAnswers();
+        //desiredQuestion.printAnswers();
         if (desiredQuestion == null) {
             System.out.println("Question ID: " + id + " does not exist");
         } else {
@@ -37,14 +37,16 @@ public class Tester {
 
         }
 
-        String search;
+
 
 
         System.out.println( "\n*******************" +
                             "\n*******************" +
                             "\n*******************");
 
+
         //test get questions for certain t-number
+        String search;
         search = "t001";
 
         List<Question> questions = inventory.searchWhoPostedQuestion(search);
@@ -63,6 +65,7 @@ public class Tester {
         System.out.println( "\n*******************" +
                             "\n*******************" +
                             "\n*******************");
+
         //test search for answers for certain t-number
         search = "t001";
 
@@ -104,12 +107,15 @@ public class Tester {
 
         List<Question> allExamQuestions = inventory.getAllExamQuestions();
 
-        if(!allExamQuestions.isEmpty())
+        if(!allExamQuestions.isEmpty()) {
             System.out.println("\nAll Exam Questions Posted: \n\n");
-            for(Question question:allExamQuestions){
+            for (Question question : allExamQuestions) {
                 System.out.println(question.toString());
             }
-
+        }
+        else{
+            System.out.println("Unfortunately no Exam Questions have been posted on te system");
+        }
 
 
 
@@ -139,12 +145,12 @@ public class Tester {
         inventory.addQuestion(q5);
 
         Answer a1 = new Answer("I have no idea", new Date(),
-                1,
+                4,
                 s1.getTNumber(), s1.getUserPassword());
         inventory.addAnswer(a1);
         Answer a2 = new Answer("Me neither", new Date(),
                 1,
-                s2.getTNumber(), s2.getUserPassword());
+                s1.getTNumber(), s1.getUserPassword());
         inventory.addAnswer(a2);
         Answer a3 = new Answer("Not a clue", new Date(),
                 1,
@@ -152,7 +158,8 @@ public class Tester {
         inventory.addAnswer(a3);
 
         Answer a4 = new Answer("A test plan includes.....", new Date(),
-                4,s1.getTNumber(),s1.getUserPassword());
+                1,
+                s1.getTNumber(),s1.getUserPassword());
         inventory.addAnswer(a4);
 
         }
