@@ -18,7 +18,6 @@ public class Question {
 
     private int questionId;
     private String questionText;
-    private Date datePosted = new Date();
     private Student questionAsker;
     Module module;
     private List<Answer> allAnswers;
@@ -26,17 +25,12 @@ public class Question {
     public Question(int questionId, String questionText, Date datePosted, String tNumber, String userPassword,Module module) {
         this.questionId = questionId;
         setQuestionText(questionText);
-        this.datePosted = datePosted;
         this.questionAsker = new Student(tNumber, userPassword);
         this.module = module;
         allAnswers = new LinkedList<>();
     }
 
     public int getQuestionId(){ return questionId; }
-
-    public Date getDatePosted() {
-        return datePosted;
-    }
 
     public String getQuestionText() {
         return questionText;
@@ -54,15 +48,13 @@ public class Question {
     public String toString() {
         if (allAnswers != null){
             return "\nQuestion ID:" + getQuestionId() +
-                    "\nDate Posted:" + getDatePosted() +
-                    "\nQuestion:" + getQuestionText() +
+                   "\nQuestion:" + getQuestionText() +
                     "\nPosted By: " + getStudent().toString();
 
                     // + "\nAnswers: " + printAnswers();
         }
         else
             return "\nQuestion ID:" + getQuestionId() +
-                        "\nDate Posted:" + getDatePosted() +
                         "\nQuestion:" + getQuestionText() +
                         "\nPosted By: " + getStudent().toString();
     }

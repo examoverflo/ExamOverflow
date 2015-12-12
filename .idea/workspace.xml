@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/GeneralQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -38,14 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Question.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.64874554">
+              <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
               <folding>
-                <element signature="e#2602#2603#0" expanded="true" />
-                <element signature="e#2631#2632#0" expanded="true" />
+                <element signature="e#2335#2336#0" expanded="true" />
+                <element signature="e#2364#2365#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneralQuestion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneralQuestion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/GeneralQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3655914">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="e#461#462#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
@@ -173,12 +173,12 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Student.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Module.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/ExamQuestion.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/GeneralQuestion.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
       </list>
     </option>
   </component>
@@ -699,13 +699,7 @@
       <workItem from="1449775532091" duration="8643000" />
       <workItem from="1449836217455" duration="1901000" />
       <workItem from="1449845027838" duration="11642000" />
-      <workItem from="1449917869994" duration="1350000" />
-    </task>
-    <task id="LOCAL-00039" summary="Updated Answer class so tha when the Answer toString method is called the tNumber for the Student who posted the answer is also displayed">
-      <created>1449757711852</created>
-      <option name="number" value="00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1449757711852</updated>
+      <workItem from="1449917869994" duration="1496000" />
     </task>
     <task id="LOCAL-00040" summary="Removed setter methods for datePosted, questionID, tNumber as these variables are immutable">
       <created>1449757806671</created>
@@ -995,11 +989,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449918785100</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Introduced new Class GeneralQuestion which is a sub class of Question">
+      <created>1449919284110</created>
+      <option name="number" value="00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1449919284110</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58058000" />
+    <option name="totallyTimeSpent" value="58204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1069,7 +1069,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created method in Question class which returns the tnumber of the student who asked the question" />
     <MESSAGE value="Changed method previously created in Question class getTNumber to getStudent.&#10;This method returns a Student object.&#10;This reduces the number of methods as all student getters can now be called from this method rather than creating further methods.&#10;Changed Inventory class to add Student and Question objects which again reuses code already in the Student and Question classes" />
     <MESSAGE value="Changed method getQuestionText in Answer class to Get Question which returns a Question object. This means the Question methods can be reused instead of creating repeated methods in the Answer class" />
     <MESSAGE value="Created method getAnswerPoster to return the Student object who posted an answer" />
@@ -1094,7 +1093,8 @@
     <MESSAGE value="Added Module variable to question class&#10;" />
     <MESSAGE value="Updated Tester class so that the Module was included on creation of new Question objects" />
     <MESSAGE value="Updated Tester class to include a call to getQuestionsByModule. This method will return all question with the specified Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Tester class to include a call to getQuestionsByModule. This method will return all question with the specified Module" />
+    <MESSAGE value="Introduced new Class GeneralQuestion which is a sub class of Question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduced new Class GeneralQuestion which is a sub class of Question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1131,8 +1131,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
-            <element signature="e#2602#2603#0" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
+            <element signature="e#2335#2336#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1186,8 +1186,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2602#2603#0" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
+            <element signature="e#2335#2336#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1518,26 +1518,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#2602#2603#0" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/GeneralQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3655914">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="e#461#462#0" expanded="true" />
             <element signature="e#494#495#0" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
             <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64874554">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding>
+            <element signature="e#2335#2336#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
           </folding>
         </state>
       </provider>
