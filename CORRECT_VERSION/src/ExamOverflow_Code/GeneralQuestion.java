@@ -9,16 +9,15 @@ public class GeneralQuestion extends Question{
 
     private Date datePosted = new Date();
 
-    public GeneralQuestion(String tNumber, String questionText, int questionId, Date datePosted, Module module){
+    public GeneralQuestion(int questionId, String questionText,String tNumber,String userPassword, Module module, Date datePosted){
 
-        super(questionId, questionText,tNumber,questionText,module);
+        super(questionId, questionText,tNumber,userPassword,module);
         this.datePosted = datePosted;
     }
 
     public Date getDatePosted() {
         return datePosted;
     }
-
 
     public String toString(){
         return super.toString() + "\nDate Posted: " + getDatePosted();
