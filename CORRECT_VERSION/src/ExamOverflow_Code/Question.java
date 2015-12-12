@@ -22,7 +22,7 @@ public class Question {
     Module module;
     private List<Answer> allAnswers;
 
-    public Question(int questionId, String questionText, Date datePosted, String tNumber, String userPassword,Module module) {
+    public Question(int questionId, String questionText, String tNumber, String userPassword,Module module) {
         this.questionId = questionId;
         setQuestionText(questionText);
         this.questionAsker = new Student(tNumber, userPassword);

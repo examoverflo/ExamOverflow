@@ -11,7 +11,7 @@ public class GeneralQuestion extends Question{
 
     public GeneralQuestion(String tNumber, String questionText, int questionId, Date datePosted, Module module){
 
-        super(questionId,questionText,datePosted, tNumber,questionText,module);
+        super(questionId, questionText,tNumber,questionText,module);
         this.datePosted = datePosted;
     }
 
