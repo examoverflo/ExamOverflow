@@ -68,13 +68,14 @@ public abstract class Question {
         return print;
     }
 
-    void filterQuestionAnswersByTNumber(String tNumber, List<Answer> matchingAnswers) {
+    List<Answer> filterQuestionAnswersByTNumber(String tNumber) {
+        List<Answer> matchingAnswers = new LinkedList<>();
         for(Answer ans: getAllAnswers()){
             if(ans.getAnswerPoster().getTNumber().equals(tNumber)){
                 matchingAnswers.add(ans);
             }
-
         }
+        return matchingAnswers;
     }
 
     public Module getModule(){

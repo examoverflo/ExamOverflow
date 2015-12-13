@@ -154,7 +154,7 @@ public class Tester {
         inventory.addAnswer(a2);
         Answer a3 = new Answer("Not a clue", new Date(),
                 1,
-                s1.getTNumber(), s1.getUserPassword());
+                s2.getTNumber(), s2.getUserPassword());
         inventory.addAnswer(a3);
 
         Answer a4 = new Answer("A test plan includes.....", new Date(),

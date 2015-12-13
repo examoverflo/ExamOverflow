@@ -85,9 +85,7 @@ public class Inventory {
         for (Question question : questions) {//search each question
 
             //search each answer in the question
-            question.filterQuestionAnswersByTNumber(tNumber, matchingAnswers);
-            return matchingAnswers;
-
+            matchingAnswers.addAll(question.filterQuestionAnswersByTNumber(tNumber));
         }
         return matchingAnswers;
     }
