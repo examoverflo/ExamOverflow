@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -50,23 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.3258427">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExamQuestion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExamQuestion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/ExamQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3258427">
+            <state vertical-scroll-proportion="0.0">
               <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="e#489#490#0" expanded="true" />
@@ -616,13 +617,7 @@
       <workItem from="1449845027838" duration="11642000" />
       <workItem from="1449917869994" duration="8709000" />
       <workItem from="1450046337233" duration="2040000" />
-      <workItem from="1450090553469" duration="562000" />
-    </task>
-    <task id="LOCAL-00049" summary="Removed questionId as it is not required. Adopted toString method to use method already provided in Student class">
-      <created>1449775938802</created>
-      <option name="number" value="00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1449775938802</updated>
+      <workItem from="1450090553469" duration="643000" />
     </task>
     <task id="LOCAL-00050" summary="Removed answerId. &#10;Created Question object&#10;Adopted toString method to use answer getters &amp; methods provided in Student &amp; Question class">
       <created>1449776318224</created>
@@ -912,11 +907,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450091100405</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="After performing Code Analysis made Answers class local to package. Declaaration access can be weaker">
+      <created>1450091147825</created>
+      <option name="number" value="00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1450091147826</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68019000" />
+    <option name="totallyTimeSpent" value="68100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -986,7 +987,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated constructors in Inventory class to use questionId instead of Question object inline with new constructors in Question and Answer classes&#10;Created second constructor in Answer class which also takes a Student password" />
     <MESSAGE value="Update test classes to new match new constructors" />
     <MESSAGE value="Tested add answer to question" />
     <MESSAGE value="updated addAnswer in Inventory class so that the answer is added to the list of answers for the Question class" />
@@ -1011,7 +1011,8 @@
     <MESSAGE value="Created method in Inventory Class which returns all ExamQuestion which have been asked. Updated Tester class to test the method" />
     <MESSAGE value="Made Question Class abstract" />
     <MESSAGE value="After performing Code Analysis made Answers class local to package" />
-    <option name="LAST_COMMIT_MESSAGE" value="After performing Code Analysis made Answers class local to package" />
+    <MESSAGE value="After performing Code Analysis made Answers class local to package. Declaaration access can be weaker" />
+    <option name="LAST_COMMIT_MESSAGE" value="After performing Code Analysis made Answers class local to package. Declaaration access can be weaker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1063,8 +1064,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
           <folding>
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1473,20 +1474,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/ExamQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3258427">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
             <element signature="e#489#490#0" expanded="true" />
@@ -1497,6 +1487,17 @@
             <element signature="e#672#673#0" expanded="true" />
             <element signature="e#721#722#0" expanded="true" />
             <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3258427">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
           </folding>
         </state>
       </provider>

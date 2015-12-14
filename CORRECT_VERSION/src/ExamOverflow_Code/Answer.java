@@ -8,9 +8,9 @@ import java.util.Date;
 class Answer {
 
     private String answerText;
-    private Date dateAnswered;
-    private int questionId;
-    private Student answerPoster;
+    private final Date dateAnswered;
+    private final int questionId;
+    private final Student answerPoster;
 
 
     public Answer(String answerText, Date dateAnswered,
