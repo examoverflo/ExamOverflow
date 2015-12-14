@@ -16,11 +16,11 @@ import java.util.List;
  */
 public abstract class Question {
 
-    private int questionId;
+    private final int questionId;
     private String questionText;
-    private Student questionAsker;
-    Module module;
-    private List<Answer> allAnswers;
+    private final Student questionAsker;
+    final Module module;
+    private final List<Answer> allAnswers;
 
     public Question(int questionId, String questionText, String tNumber, String userPassword,Module module) {
         this.questionId = questionId;
