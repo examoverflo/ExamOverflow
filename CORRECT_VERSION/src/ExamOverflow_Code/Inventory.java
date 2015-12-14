@@ -8,8 +8,8 @@ import java.util.List;
  */
 public class Inventory {
 
-    private List<Student> students;
-    private List<Question> questions;
+    private final List<Student> students;
+    private final List<Question> questions;
 
     public Inventory(){
         students = new LinkedList<>();

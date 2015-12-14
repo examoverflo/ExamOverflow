@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3258427">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#820#821#0" expanded="true" />
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3258427">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,9 +153,9 @@
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/ExamQuestion.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/TestForAddingListOfAnswersToQuestion.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java" />
-        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
         <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
+        <option value="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java" />
       </list>
     </option>
   </component>
@@ -617,13 +617,7 @@
       <workItem from="1449845027838" duration="11642000" />
       <workItem from="1449917869994" duration="8709000" />
       <workItem from="1450046337233" duration="2040000" />
-      <workItem from="1450090553469" duration="643000" />
-    </task>
-    <task id="LOCAL-00050" summary="Removed answerId. &#10;Created Question object&#10;Adopted toString method to use answer getters &amp; methods provided in Student &amp; Question class">
-      <created>1449776318224</created>
-      <option name="number" value="00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1449776318278</updated>
+      <workItem from="1450090553469" duration="733000" />
     </task>
     <task id="LOCAL-00051" summary="Removed answerId. &#10;Created Question object&#10;Adopted toString method to use answer getters &amp; methods provided in Student &amp; Question class">
       <created>1449777620808</created>
@@ -913,11 +907,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450091147826</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Updated datePosted, questionID and answerPoster to be final after code analysis. Declaration can have final modifier">
+      <created>1450091259615</created>
+      <option name="number" value="00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1450091259615</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68100000" />
+    <option name="totallyTimeSpent" value="68190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -987,7 +987,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update test classes to new match new constructors" />
     <MESSAGE value="Tested add answer to question" />
     <MESSAGE value="updated addAnswer in Inventory class so that the answer is added to the list of answers for the Question class" />
     <MESSAGE value="made some changes to the way Answers and Question are searched for" />
@@ -1012,7 +1011,8 @@
     <MESSAGE value="Made Question Class abstract" />
     <MESSAGE value="After performing Code Analysis made Answers class local to package" />
     <MESSAGE value="After performing Code Analysis made Answers class local to package. Declaaration access can be weaker" />
-    <option name="LAST_COMMIT_MESSAGE" value="After performing Code Analysis made Answers class local to package. Declaaration access can be weaker" />
+    <MESSAGE value="Updated datePosted, questionID and answerPoster to be final after code analysis. Declaration can have final modifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated datePosted, questionID and answerPoster to be final after code analysis. Declaration can have final modifier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1448,16 +1448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1493,11 +1483,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3258427">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="e#820#821#0" expanded="true" />
             <element signature="e#855#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3258427">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
