@@ -4,9 +4,7 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="After performing Code Analysis made Answers class">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Answer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" afterPath="$PROJECT_DIR$/CORRECT_VERSION/src/ExamOverflow_Code/Tester.java" />
+    <list default="true" id="06ebe255-3f5f-441a-b99d-f845f0ef96ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamOverflow.iws" />
@@ -618,13 +616,7 @@
       <workItem from="1449845027838" duration="11642000" />
       <workItem from="1449917869994" duration="8709000" />
       <workItem from="1450046337233" duration="2040000" />
-      <workItem from="1450090553469" duration="512000" />
-    </task>
-    <task id="LOCAL-00048" summary="Gave Student class a well deserved toString method">
-      <created>1449775732573</created>
-      <option name="number" value="00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1449775732573</updated>
+      <workItem from="1450090553469" duration="562000" />
     </task>
     <task id="LOCAL-00049" summary="Removed questionId as it is not required. Adopted toString method to use method already provided in Student class">
       <created>1449775938802</created>
@@ -914,11 +906,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449924959110</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="After performing Code Analysis made Answers class local to package">
+      <created>1450091100388</created>
+      <option name="number" value="00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1450091100405</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67969000" />
+    <option name="totallyTimeSpent" value="68019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -988,7 +986,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created methods for adding a List of Answers to a Question&#10;Created TestForAddingListOfAnswersToQuestion to test these methods" />
     <MESSAGE value="Updated constructors in Inventory class to use questionId instead of Question object inline with new constructors in Question and Answer classes&#10;Created second constructor in Answer class which also takes a Student password" />
     <MESSAGE value="Update test classes to new match new constructors" />
     <MESSAGE value="Tested add answer to question" />
@@ -1013,7 +1010,8 @@
     <MESSAGE value="Updated toString method in ExamQuestion and Question" />
     <MESSAGE value="Created method in Inventory Class which returns all ExamQuestion which have been asked. Updated Tester class to test the method" />
     <MESSAGE value="Made Question Class abstract" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Question Class abstract" />
+    <MESSAGE value="After performing Code Analysis made Answers class local to package" />
+    <option name="LAST_COMMIT_MESSAGE" value="After performing Code Analysis made Answers class local to package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
