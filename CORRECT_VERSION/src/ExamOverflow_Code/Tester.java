@@ -141,7 +141,7 @@ public class Tester {
         Question q4 = new ExamQuestion(2015,1,4,"Describe what a Unit Test Plan Includes",s1.getTNumber(),s1.getUserPassword(),Module.SOFTWARE_TESTING);
         inventory.addQuestion(q4);
 
-        Question q5 = new ExamQuestion(2015,2,5,"Describe the process in setting up a....",s1.getTNumber(),s1.getUserPassword(),Module.SOFTWARE_TESTING);
+        Question q5 = new ExamQuestion(2014,2,5,"Describe the process in setting up a....",s1.getTNumber(),s1.getUserPassword(),Module.SOFTWARE_TESTING);
         inventory.addQuestion(q5);
 
         Answer a1 = new Answer("I have no idea", new Date(),
