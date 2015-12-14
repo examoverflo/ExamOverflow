@@ -6,13 +6,13 @@ package ExamOverflow_Code;
 public enum Module {
 
 
-    OOP3, WEBDESIGN, SOFTWARE_TESTING, DATABASE_DESIGN, NETWORK_FUNDAMENTALS, ROUTING_FUNDAMENTALS, OOP4;
+    OOP3, WEB_DESIGN, SOFTWARE_TESTING, DATABASE_DESIGN, NETWORK_FUNDAMENTALS, ROUTING_FUNDAMENTALS, OOP4;
 
     public String toString() {
         switch (this) {
             case OOP3:
                 return " OOP3";
-            case WEBDESIGN:
+            case WEB_DESIGN:
                 return "Web Design";
             case SOFTWARE_TESTING:
                 return "Software Testing";
