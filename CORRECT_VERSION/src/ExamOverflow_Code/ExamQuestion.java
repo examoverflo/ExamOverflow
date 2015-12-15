@@ -8,8 +8,8 @@ public class ExamQuestion extends Question{
     private int examYear;
     private int questionNo;
 
-    public ExamQuestion(int examYear, int questionNo, int questionId, String questionText, String tNumber,String userPassword,Module module){
-        super(questionId,questionText, tNumber,userPassword, module);
+    public ExamQuestion(int examYear, int questionNo, int questionId, String questionText, Student student,Module module){
+        super(questionId,questionText, student, module);
         setExamYear(examYear);
         setQuestionNo(questionNo);
     }

@@ -130,17 +130,17 @@ public class Tester {
         Student s3 = new Student("t003", "password3");
         inventory.addStudent(s3);
 
-        Question q1 = new GeneralQuestion(1, "What is OOP", s1.getTNumber(), s1.getUserPassword(),Module.OOP3, new Date());
+        Question q1 = new GeneralQuestion(1, "What is OOP", s1,Module.OOP3, new Date());
         inventory.addQuestion(q1);
-        Question q2 = new GeneralQuestion(2, "What is polymorphism", s2.getTNumber(), s2.getUserPassword(),Module.OOP4, new Date());
+        Question q2 = new GeneralQuestion(2, "What is polymorphism", s2,Module.OOP4, new Date());
         inventory.addQuestion(q2);
-        Question q3 = new GeneralQuestion(3, "What is a checked exception", s3.getTNumber(), s3.getUserPassword(),Module.OOP4, new Date());
+        Question q3 = new GeneralQuestion(3, "What is a checked exception", s3,Module.OOP4, new Date());
         inventory.addQuestion(q3);
 
-        Question q4 = new ExamQuestion(2015,1,4,"Describe what a Unit Test Plan Includes",s1.getTNumber(),s1.getUserPassword(),Module.SOFTWARE_TESTING);
+        Question q4 = new ExamQuestion(2015,1,4,"Describe what a Unit Test Plan Includes",s1,Module.SOFTWARE_TESTING);
         inventory.addQuestion(q4);
 
-        Question q5 = new ExamQuestion(2014,2,5,"Describe the process in setting up a....",s1.getTNumber(),s1.getUserPassword(),Module.SOFTWARE_TESTING);
+        Question q5 = new ExamQuestion(2014,2,5,"Describe the process in setting up a....",s1,Module.SOFTWARE_TESTING);
         inventory.addQuestion(q5);
 
         Answer a1 = new Answer("I have no idea", new Date(),

@@ -20,10 +20,10 @@ public abstract class Question {
     final Module module;
     private final List<Answer> allAnswers;
 
-    public Question(int questionId, String questionText, String tNumber, String userPassword,Module module) {
+    public Question(int questionId, String questionText, Student student,Module module) {
         this.questionId = questionId;
         setQuestionText(questionText);
-        this.questionAsker = new Student(tNumber, userPassword);
+        this.questionAsker = student;
         this.module = module;
         allAnswers = new LinkedList<>();
     }

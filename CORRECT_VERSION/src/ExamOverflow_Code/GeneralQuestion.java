@@ -9,9 +9,9 @@ public class GeneralQuestion extends Question{
 
     private Date datePosted = new Date();
 
-    public GeneralQuestion(int questionId, String questionText,String tNumber,String userPassword, Module module, Date datePosted){
+    public GeneralQuestion(int questionId, String questionText,Student student, Module module, Date datePosted){
 
-        super(questionId, questionText,tNumber,userPassword,module);
+        super(questionId, questionText,student,module);
         this.datePosted = datePosted;
     }
 
