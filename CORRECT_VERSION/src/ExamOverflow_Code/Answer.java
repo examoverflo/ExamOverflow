@@ -46,7 +46,7 @@ class Answer {
         return "\nAnswer: " + getAnswerText() +
                 "\nDate Answered: " + getDateAnswered() +
                 "\nQuestion ID: " + getQuestionId() +
-                "\n" + getAnswerPoster();
+                "\nAnsswer Poster: " + getAnswerPoster().getTNumber();
     }
 
 }
