@@ -17,7 +17,6 @@ public class Tester {
 
         Question desiredQuestion = inventory.searchForQuestionByQuestionId(id);
 
-        //desiredQuestion.printAnswers();
         if (desiredQuestion == null) {
             System.out.println("Question ID: " + id + " does not exist");
         } else {
@@ -25,9 +24,6 @@ public class Tester {
 
             System.out.println(desiredQuestion.printAnswers());
         }
-
-
-
 
         System.out.println( "\n*******************" +
                             "\n*******************" +
