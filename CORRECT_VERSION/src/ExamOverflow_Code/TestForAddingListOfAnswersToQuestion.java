@@ -22,13 +22,13 @@ public class TestForAddingListOfAnswersToQuestion {
 
         Answer a1 = new Answer("I have no idea", new Date(),
                 1,
-                s3.getTNumber(), s3.getUserPassword());
+                s3);
         Answer a2 = new Answer("Me neither", new Date(),
                 1,
-                s2.getTNumber(), s2.getUserPassword());
+                s2);
         Answer a3 = new Answer("Not a clue", new Date(),
                 1,
-                s2.getTNumber(), s2.getUserPassword());
+                s2);
 
         System.out.println("adding a1 to q1.......");
         q1.setAnswer(a1);

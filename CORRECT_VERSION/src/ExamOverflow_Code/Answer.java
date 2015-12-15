@@ -15,11 +15,11 @@ class Answer {
 
     public Answer(String answerText, Date dateAnswered,
                   int questionId,
-                  String tNumberOfAnswerer, String passwordOfAnswerer){
+                  Student student){
         setAnswerText(answerText);
         this.dateAnswered = dateAnswered;
         this.questionId = questionId;
-        this.answerPoster = new Student(tNumberOfAnswerer, passwordOfAnswerer);
+        this.answerPoster = student;
     }
 
     public String getAnswerText() {

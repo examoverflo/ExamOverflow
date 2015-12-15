@@ -145,20 +145,20 @@ public class Tester {
 
         Answer a1 = new Answer("I have no idea", new Date(),
                 4,
-                s1.getTNumber(), s1.getUserPassword());
+                s1);
         inventory.addAnswer(a1);
         Answer a2 = new Answer("Me neither", new Date(),
                 1,
-                s1.getTNumber(), s1.getUserPassword());
+                s1);
         inventory.addAnswer(a2);
         Answer a3 = new Answer("Not a clue", new Date(),
                 1,
-                s2.getTNumber(), s2.getUserPassword());
+                s2);
         inventory.addAnswer(a3);
 
         Answer a4 = new Answer("A test plan includes.....", new Date(),
                 1,
-                s1.getTNumber(),s1.getUserPassword());
+                s1);
         inventory.addAnswer(a4);
 
         }
