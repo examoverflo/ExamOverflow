@@ -60,8 +60,13 @@ public abstract class Question {
 
     public String printAnswers(){
         String print = "";
-        for(Answer a : allAnswers){
-            print += a.toString() + "\n";
+        if(getAllAnswers()==null){
+            print = "There are no answers";
+        }
+        else {
+            for (Answer a : allAnswers) {
+                print += a.toString() + "\n";
+            }
         }
         return print;
     }

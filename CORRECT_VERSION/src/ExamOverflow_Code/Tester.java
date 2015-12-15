@@ -21,19 +21,9 @@ public class Tester {
         if (desiredQuestion == null) {
             System.out.println("Question ID: " + id + " does not exist");
         } else {
-            List<Answer> questionAnswer = inventory.searchForAnswersByQuestionId(desiredQuestion.getQuestionId());
             System.out.println("Searching for answer to " + desiredQuestion.toString());
 
-            if (!questionAnswer.isEmpty()) {
-                System.out.println("................\n"
-                        + "Here are all the answers:");
-                for (Answer answer : questionAnswer) {
-                    System.out.println(answer.toString());
-                }
-            } else {
-                System.out.println("Unfortunately, no answers have been given for this question");
-            }
-
+            System.out.println(desiredQuestion.printAnswers());
         }
 
 
